@@ -24,7 +24,7 @@ header{
         
         
 
-        .logo{
+.logo{
             width: 5.125rem;
             height: 5.5rem;
             padding-left: 50px;
@@ -261,17 +261,24 @@ header{
 
             .textoyboton1 {
                 display: none;
-                
-                padding: 10px;
-                border: 1px solid #ccc;
+                font-family: 'Montserrat', sans-serif;
+                margin-top: 20px;
+                background-color: #02776D;
                 border-radius: 5px;
-                width: 300px;
+                width: 490px;
+
+                p{
+                    padding-left: 60px;
+                    padding-right: 60px;
+                    padding-top: 40px;
+                    padding-bottom: 40px;
+                }
             }
             
-            .boton1checkbox:checked + .boton1 + .textoyboton1 {
-                display: block;
+.boton1checkbox:checked + .boton1 + .textoyboton1 {
+	display: block;
             }
-       }
+}
     
        .botonybajada2{
         
@@ -304,8 +311,6 @@ header{
         
         .textoyboton2 {
             display: none;
-            
-            
             border: 1px solid #ccc;
             border-radius: 5px;
             width: 300px;
