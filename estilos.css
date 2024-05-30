@@ -223,9 +223,9 @@ header{
 
         
        .botonybajada1{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         
             .boton1checkbox {
                 display: none;
@@ -296,9 +296,14 @@ header{
                     font-style: normal;
                     font-weight: 700;
                     line-height: normal;
+                    transition: 0.3s;
                 }
                 
-            
+                button:hover{
+                    background:#E3D8C2;
+                    color: #02776D;
+                }
+                
             }
             
             .boton1checkbox:checked + .boton1 + .textoyboton1 {
@@ -315,7 +320,7 @@ header{
         .boton2{
             display: inline-block;
             width: 60%;
-            margin: 0% 0%;
+            
             padding: 10px 60px;
             cursor: pointer;
             border: none;
@@ -377,8 +382,13 @@ header{
                 font-style: normal;
                 font-weight: 700;
                 line-height: normal;
+                transition: 0.3s;
             }
 
+            button:hover{
+                background:#E3D8C2;
+                color: #001720;
+            }
         }
         
         .boton2checkbox:checked + .boton2 + .textoyboton2 {
@@ -476,6 +486,7 @@ header{
                 font-weight: 700;
                 line-height: normal;
                 margin-bottom: 60px;
+                transition: 0.3s,
             }
         }
     
@@ -535,6 +546,7 @@ header{
                 font-weight: 700;
                 line-height: normal;
                 margin-bottom: 60px;
+                transition: 0.3s,
             }
         }
         
@@ -594,6 +606,7 @@ header{
                 font-weight: 700;
                 line-height: normal;
                 margin-bottom: 60px;
+                transition: 0.3s,
             }
         }
     
@@ -653,6 +666,7 @@ header{
                 font-weight: 700;
                 line-height: normal;
                 margin-bottom: 60px;
+                transition: 0.3s,
             }
         }
 
@@ -712,8 +726,18 @@ header{
                 font-weight: 700;
                 line-height: normal;
                 margin-bottom: 60px;
+                transition: 0.3s,
             }
+            
+
+            
         }
+        
+        button:hover{
+            background:#E3D8C2;
+            color: #042A2D;
+        }
+    
     }
 }
 
@@ -790,6 +814,7 @@ header{
                 font-weight: 700;
                 line-height: normal;
                 margin-bottom: 60px;
+                transition: 0.3s,
             }
         }
 
@@ -839,8 +864,15 @@ header{
                 font-weight: 700;
                 line-height: normal;
                 margin-bottom: 60px;
+                transition: 0.3s,
             }
         }
+        
+        button:hover{
+            background:#E3D8C2;
+            color: #02776D;
+        }
+    
     }
 }
 
@@ -928,6 +960,7 @@ header{
                 font-weight: 700;
                 line-height: normal;
                 margin-bottom: 60px;
+                transition: 0.3s,
             }
         }
 
@@ -987,6 +1020,7 @@ header{
                 font-weight: 700;
                 line-height: normal;
                 margin-bottom: 60px;
+                transition: 0.3s,
             }
         }
 
@@ -1046,8 +1080,15 @@ header{
                 font-weight: 700;
                 line-height: normal;
                 margin-bottom: 60px;
+                transition: 0.3s,
             }
         }
+    
+        button:hover{
+            background:#E3D8C2;
+            color: #042A2D;
+        }
+    
     }
 
 }
