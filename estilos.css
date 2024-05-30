@@ -18,11 +18,6 @@ header{
         justify-content: space-between;
         padding-top: 20px;
         padding-bottom: 20px;
-        
-
-        
-        
-        
 
         .logo{
             width: 5.125rem;
@@ -54,9 +49,6 @@ header{
             }
         }
     }
-
-
-
 }
 
 .bienvenida{
@@ -231,6 +223,9 @@ header{
 
         
        .botonybajada1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         
             .boton1checkbox {
                 display: none;
@@ -261,18 +256,49 @@ header{
 
             .textoyboton1 {
                 display: none;
-                font-family: 'Montserrat', sans-serif;
+                align-items: center;
                 margin-top: 20px;
                 background-color: #02776D;
-                border-radius: 5px;
+                border-radius: 10px;
                 width: 490px;
 
                 p{
-                    padding-left: 60px;
-                    padding-right: 60px;
+                    padding-left: 35px;
+                    padding-right: 35px;
                     padding-top: 40px;
                     padding-bottom: 40px;
+                    overflow: hidden;
+                    color: #E3D8C2;
+                    text-overflow: ellipsis;
+                    font-family: Montserrat;
+                    font-size: 1.5625rem;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+
                 }
+            
+                button{
+                    background-color:#02776D;
+                    margin-left: 30%;
+                    margin-bottom: 40px;
+                    width: 11.3125rem;
+                    height: 3.0625rem;
+                    padding: 0.375rem 1.25rem;
+                    justify-content: center;
+                    align-items: center;
+                    flex-shrink: 0;
+                    border: 3px solid #E3D8C2;
+                    color: #E3D8C2;
+                    text-align: center;
+                    font-family: Montserrat;
+                    font-size: 1.75rem;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                }
+                
+            
             }
             
             .boton1checkbox:checked + .boton1 + .textoyboton1 {
@@ -311,9 +337,48 @@ header{
         
         .textoyboton2 {
             display: none;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            width: 300px;
+            align-items: center;
+            margin-top: 20px;
+            background-color: #001720;
+            border-radius: 10px;
+            width: 490px;
+
+            p{
+                padding-left: 35px;
+                padding-right: 35px;
+                padding-top: 40px;
+                padding-bottom: 40px;
+                overflow: hidden;
+                color: #E3D8C2;
+                text-overflow: ellipsis;
+                font-family: Montserrat;
+                font-size: 1.5625rem;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+
+            }
+        
+            button{
+                background-color: #001720;
+                margin-left: 30%;
+                margin-bottom: 40px;
+                width: 11.3125rem;
+                height: 3.0625rem;
+                padding: 0.375rem 1.25rem;
+                justify-content: center;
+                align-items: center;
+                flex-shrink: 0;
+                border: 3px solid #E3D8C2;
+                color: #E3D8C2;
+                text-align: center;
+                font-family: Montserrat;
+                font-size: 1.75rem;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+
         }
         
         .boton2checkbox:checked + .boton2 + .textoyboton2 {
@@ -323,5 +388,666 @@ header{
     
     }
 
+
+}
+
+.escuelas-de-ski{
+    h3{
+        background: #042A2D;
+        display: flex;
+        width: 100%;
+        padding: 5rem 0rem;
+        justify-content: center;
+        align-items: center;
+        color: #E3D8C2;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 3.125rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+
+    .escuelas{
+        
+        display: flex;
+        width: 100%;
+        margin-top: 70px;
+        justify-content: center;
+        align-items: flex-start;
+        align-content: flex-start;
+        gap: 2.5rem;
+        flex-wrap: wrap;
+        
+        .guarderia-los-pumitas{
+            display: flex;
+            width: 25%;
+            height: auto;
+            padding: 3.125rem 1.875rem 0.1875rem 1.875rem;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+            border-radius: 2.5625rem;
+            background: #042A2D;
+
+            img{
+                border-radius: 10px;
+                width: 90%;
+                height: auto;
+                flex-shrink: 0;
+            }
+        
+            p{
+                color: #E3D8C2;
+                text-align: center;
+                font-family: Montserrat;
+                font-size: 1.25rem;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+        
+            h4{
+                color: #E3D8C2;
+                text-align: center;
+                font-family: Montserrat;
+                font-size: 1.875rem;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+        
+            button{
+                background: #042A2D;
+                display: flex;
+                width: 11.3125rem;
+                height: 3.0625rem;
+                padding: 0.375rem 1.25rem;
+                justify-content: center;
+                align-items: center;
+                flex-shrink: 0;
+                border: 3px solid #E3D8C2;
+                color: #E3D8C2;
+                text-align: center;
+                font-family: Montserrat;
+                font-size: 1.75rem;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                margin-bottom: 20px;
+            }
+        }
+    
+        .jardin-de-nieve{
+            display: flex;
+            width: 25%;
+            height: auto;
+            padding: 3.125rem 1.875rem 0.1875rem 1.875rem;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+            border-radius: 2.5625rem;
+            background: #042A2D;
+
+            img{
+                border-radius: 10px;
+                width: 90%;
+                height: auto;
+                flex-shrink: 0;
+            }
+        
+            p{
+                color: #E3D8C2;
+                text-align: center;
+                font-family: Montserrat;
+                font-size: 1.25rem;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+        
+            h4{
+                color: #E3D8C2;
+                text-align: center;
+                font-family: Montserrat;
+                font-size: 1.875rem;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+        
+            button{
+                background: #042A2D;
+                display: flex;
+                width: 11.3125rem;
+                height: 3.0625rem;
+                padding: 0.375rem 1.25rem;
+                justify-content: center;
+                align-items: center;
+                flex-shrink: 0;
+                border: 3px solid #E3D8C2;
+                color: #E3D8C2;
+                text-align: center;
+                font-family: Montserrat;
+                font-size: 1.75rem;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                margin-bottom: 20px;
+            }
+        }
+        
+        .club-junior{
+            display: flex;
+            width: 25%;
+            height: auto;
+            padding: 3.125rem 1.875rem 0.1875rem 1.875rem;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+            border-radius: 2.5625rem;
+            background: #042A2D;
+
+            img{
+                border-radius: 10px;
+                width: 90%;
+                height: auto;
+                flex-shrink: 0;
+            }
+        
+            p{
+                color: #E3D8C2;
+                text-align: center;
+                font-family: Montserrat;
+                font-size: 1.25rem;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+        
+            h4{
+                color: #E3D8C2;
+                text-align: center;
+                font-family: Montserrat;
+                font-size: 1.875rem;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+        
+            button{
+                background: #042A2D;
+                display: flex;
+                width: 11.3125rem;
+                height: 3.0625rem;
+                padding: 0.375rem 1.25rem;
+                justify-content: center;
+                align-items: center;
+                flex-shrink: 0;
+                border: 3px solid #E3D8C2;
+                color: #E3D8C2;
+                text-align: center;
+                font-family: Montserrat;
+                font-size: 1.75rem;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                margin-bottom: 20px;
+            }
+        }
+    
+        .clases-colectivas{
+            display: flex;
+            width: 25%;
+            height: auto;
+            padding: 3.125rem 1.875rem 0.1875rem 1.875rem;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+            border-radius: 2.5625rem;
+            background: #042A2D;
+
+            img{
+                border-radius: 10px;
+                width: 90%;
+                height: auto;
+                flex-shrink: 0;
+            }
+        
+            p{
+                color: #E3D8C2;
+                text-align: center;
+                font-family: Montserrat;
+                font-size: 1.25rem;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+        
+            h4{
+                color: #E3D8C2;
+                text-align: center;
+                font-family: Montserrat;
+                font-size: 1.875rem;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+        
+            button{
+                background: #042A2D;
+                display: flex;
+                width: 11.3125rem;
+                height: 3.0625rem;
+                padding: 0.375rem 1.25rem;
+                justify-content: center;
+                align-items: center;
+                flex-shrink: 0;
+                border: 3px solid #E3D8C2;
+                color: #E3D8C2;
+                text-align: center;
+                font-family: Montserrat;
+                font-size: 1.75rem;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                margin-bottom: 20px;
+            }
+        }
+
+        .clases-particulares{
+            display: flex;
+            width: 25%;
+            height: auto;
+            padding: 3.125rem 1.875rem 0.1875rem 1.875rem;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+            border-radius: 2.5625rem;
+            background: #042A2D;
+
+            img{
+                border-radius: 10px;
+                width: 90%;
+                height: auto;
+                flex-shrink: 0;
+            }
+        
+            p{
+                color: #E3D8C2;
+                text-align: center;
+                font-family: Montserrat;
+                font-size: 1.25rem;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+        
+            h4{
+                color: #E3D8C2;
+                text-align: center;
+                font-family: Montserrat;
+                font-size: 1.875rem;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+        
+            button{
+                background: #042A2D;
+                display: flex;
+                width: 11.3125rem;
+                height: 3.0625rem;
+                padding: 0.375rem 1.25rem;
+                justify-content: center;
+                align-items: center;
+                flex-shrink: 0;
+                border: 3px solid #E3D8C2;
+                color: #E3D8C2;
+                text-align: center;
+                font-family: Montserrat;
+                font-size: 1.75rem;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+
+.alojamientos{
+    padding-top: 140px;
+    
+    h3{
+        background: #02776D;
+        display: flex;
+        width: 100%;
+        padding: 5rem 0rem;
+        justify-content: center;
+        align-items: center;
+        color: #E3D8C2;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 3.125rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .hoteles{
+        width: 100%;
+        margin-top: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 2.5rem;
+
+        .hotel-nevado{
+            display: flex;
+            width: 30%;
+            height: auto;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 2.5rem;
+            border-radius: 2.5rem;
+            background: #02776D;
+
+            img{
+                margin-top: 25px;
+                border-radius: 1.875rem;
+                width: 85%;
+                height: auto;
+                flex-shrink: 0;
+            }
+
+            h4{
+                color: #E3D8C2;
+                font-family: Montserrat;
+                font-size: 2.5rem;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+        
+            button{
+                background: #02776D;
+                display: flex;
+                width: 11.3125rem;
+                height: 3.0625rem;
+                padding: 0.375rem 1.25rem;
+                justify-content: center;
+                align-items: center;
+                flex-shrink: 0;
+                border: 3px solid #E3D8C2;
+                color: #E3D8C2;
+                text-align: center;
+                font-family: Montserrat;
+                font-size: 1.75rem;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                margin-bottom: 35px;
+            }
+        }
+
+        .grand-hotel{
+            display: flex;
+            width: 30%;
+            height: auto;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 2.5rem;
+            border-radius: 2.5rem;
+            background: #02776D;
+
+            img{
+                margin-top: 25px;
+                border-radius: 1.875rem;
+                width: 85%;
+                height: auto;
+                flex-shrink: 0;
+            }
+
+            h4{
+                color: #E3D8C2;
+                font-family: Montserrat;
+                font-size: 2.5rem;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+        
+            button{
+                background: #02776D;
+                display: flex;
+                width: 11.3125rem;
+                height: 3.0625rem;
+                padding: 0.375rem 1.25rem;
+                justify-content: center;
+                align-items: center;
+                flex-shrink: 0;
+                border: 3px solid #E3D8C2;
+                color: #E3D8C2;
+                text-align: center;
+                font-family: Montserrat;
+                font-size: 1.75rem;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                margin-bottom: 35px;
+            }
+        }
+    }
+}
+
+.excursiones{
+    padding-top: 140px;
+
+    h3{
+        background: #042A2D;
+        display: flex;
+        width: 100%;
+        padding: 5rem 0rem;
+        justify-content: center;
+        align-items: center;
+        color: #E3D8C2;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 3.125rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .excursionestarjetas{
+        display: flex;
+        width: 100%;
+        margin-top: 70px;
+        justify-content: center;
+        align-items: flex-start;
+        align-content: flex-start;
+        gap: 2.5rem;
+        flex-wrap: wrap;
+
+        .moto-de-nieve{
+            display: flex;
+            width: 25%;
+            height: auto;
+            padding: 3.125rem 1.875rem 0.1875rem 1.875rem;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+            border-radius: 2.5625rem;
+            background: #042A2D;
+
+            img{
+                border-radius: 10px;
+                width: 90%;
+                height: auto;
+                flex-shrink: 0;
+            }
+        
+            p{
+                color: #E3D8C2;
+                text-align: center;
+                font-family: Montserrat;
+                font-size: 1.25rem;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+        
+            h4{
+                color: #E3D8C2;
+                text-align: center;
+                font-family: Montserrat;
+                font-size: 1.875rem;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+        
+            button{
+                background: #042A2D;
+                display: flex;
+                width: 11.3125rem;
+                height: 3.0625rem;
+                padding: 0.375rem 1.25rem;
+                justify-content: center;
+                align-items: center;
+                flex-shrink: 0;
+                border: 3px solid #E3D8C2;
+                color: #E3D8C2;
+                text-align: center;
+                font-family: Montserrat;
+                font-size: 1.75rem;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                margin-bottom: 20px;
+            }
+        }
+
+        .free-ride{
+            display: flex;
+            width: 25%;
+            height: auto;
+            padding: 3.125rem 1.875rem 0.1875rem 1.875rem;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+            border-radius: 2.5625rem;
+            background: #042A2D;
+
+            img{
+                border-radius: 10px;
+                width: 90%;
+                height: auto;
+                flex-shrink: 0;
+            }
+        
+            p{
+                color: #E3D8C2;
+                text-align: center;
+                font-family: Montserrat;
+                font-size: 1.25rem;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+        
+            h4{
+                color: #E3D8C2;
+                text-align: center;
+                font-family: Montserrat;
+                font-size: 1.875rem;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+        
+            button{
+                background: #042A2D;
+                display: flex;
+                width: 11.3125rem;
+                height: 3.0625rem;
+                padding: 0.375rem 1.25rem;
+                justify-content: center;
+                align-items: center;
+                flex-shrink: 0;
+                border: 3px solid #E3D8C2;
+                color: #E3D8C2;
+                text-align: center;
+                font-family: Montserrat;
+                font-size: 1.75rem;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                margin-bottom: 20px;
+            }
+        }
+
+        .vehiculos-oruga{
+            display: flex;
+            width: 25%;
+            height: auto;
+            padding: 3.125rem 1.875rem 0.1875rem 1.875rem;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+            border-radius: 2.5625rem;
+            background: #042A2D;
+
+            img{
+                border-radius: 10px;
+                width: 90%;
+                height: auto;
+                flex-shrink: 0;
+            }
+        
+            p{
+                color: #E3D8C2;
+                text-align: center;
+                font-family: Montserrat;
+                font-size: 1.25rem;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+        
+            h4{
+                color: #E3D8C2;
+                text-align: center;
+                font-family: Montserrat;
+                font-size: 1.875rem;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+        
+            button{
+                background: #042A2D;
+                display: flex;
+                width: 11.3125rem;
+                height: 3.0625rem;
+                padding: 0.375rem 1.25rem;
+                justify-content: center;
+                align-items: center;
+                flex-shrink: 0;
+                border: 3px solid #E3D8C2;
+                color: #E3D8C2;
+                text-align: center;
+                font-family: Montserrat;
+                font-size: 1.75rem;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                margin-bottom: 20px;
+            }
+        }
+    }
 
 }
