@@ -1,1 +1,201 @@
+header{
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+    background: rgba(17, 17, 17, 0.50);
+    
+    nav{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+        .logo{
+            width: 5.125rem;
+            height: 5.5rem;
+            padding-left: 50px;
+        }
+
+        ul{
+            display: flex;
+            flex-direction: row;
+            margin-right: 120px;
+            gap: 5%;
+            
+            
+            
+            li{
+                background-color: rgb(4, 42, 45);
+                padding: 0.625rem 1.25rem;
+                border-radius: 0.625rem;
+                list-style: none;
+                color: #E3D8C2;
+                text-align: center;
+                font-family: Montserrat;
+                font-size: 1.25rem;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                
+            }
+        }
+    }
+}
+
+.bienvenida{
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+
+
+    video{
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    h1{
+        padding-bottom: 50px;
+        padding-left: 30%;
+        padding-right: 30%;
+        align-items: center;
+        position: relative;
+        z-index: 2;
+        color: #E3D8C2;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 5em;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        
+        
+    }
+}
+
+.bajada{
+    background-color: rgb(17, 17, 17);
+    width: 100%;
+    height: 1770px;
+
+    .botoneraactividades{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+        margin-right: 7%;
+        margin-left: 7%;
+        padding-top: 70px;
+        
+        .boton-rental{
+            display: flex;
+            width: 30%;
+            height: auto;
+            padding: 9.8125rem 0rem;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 1.875rem;
+            background: url(img/ski/rental.jpg) lightgray 50% / cover no-repeat;
+            border: none;
+            
+            text-align: center;
+            font-family: Montserrat;
+            font-size: 2.5rem;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            color: #E3D8C2;
+            cursor: pointer;
+            transition: 0.5s;
+        }
+
+        button:hover{
+            color: #E3D8C2;
+            background: rgb(4, 42, 45);
+        }
+
+        .boton-pases{
+            display: flex;
+            width: 30%;
+            height: auto;
+            padding: 9.8125rem 0rem;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 1.875rem;
+            background: url(img/pases.jpg) lightgray 50% / cover no-repeat;
+            border: none;
+
+            text-align: center;
+            font-family: Montserrat;
+            font-size: 2.5rem;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            color: #E3D8C2;
+            cursor: pointer;
+            transition: 0.5s;
+        }
+    
+        .boton-excursiones{
+            display: flex;
+            width: 30%;
+            height: auto;
+            padding: 9.8125rem 0rem;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 1.875rem;
+            background: url(img/excursiones.jpg) lightgray 50% / cover no-repeat;
+            border: none;
+           
+            text-align: center;
+            font-family: Montserrat;
+            font-size: 2.5rem;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            color: #E3D8C2;
+            cursor: pointer;
+            transition: 0.5s;
+        }
+    
+
+    }
+
+    .presentacion{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3.75rem;
+        margin-right: 7%;
+        margin-left: 7%;
+        padding-top: 70px;
+
+        h2{
+            color: #E3D8C2;
+            text-align: center;
+            font-family: Montserrat;
+            font-size: 3.125rem;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+
+        p{
+            color: #E3D8C2;
+            text-align: center;
+            leading-trim: both;
+            text-edge: cap;
+            font-family: Montserrat;
+            font-size: 1.562
 
