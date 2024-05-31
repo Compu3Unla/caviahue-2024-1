@@ -24,14 +24,12 @@ header{
             height: 5.5rem;
             padding-left: 50px;
         }
-
+        
         ul{
             display: flex;
             flex-direction: row;
             margin-right: 120px;
             gap: 5%;
-            
-            
             
             li{
                 background-color: rgb(4, 42, 45);
@@ -45,8 +43,9 @@ header{
                 font-style: normal;
                 font-weight: 700;
                 line-height: normal;
-                
             }
+
+
         }
     }
 }
@@ -91,7 +90,7 @@ header{
 .bajada{
     background-color: rgb(17, 17, 17);
     width: 100%;
-    height: 1770px;
+    height: auto;
 
     .botoneraactividades{
         display: flex;
@@ -213,7 +212,8 @@ header{
 
     .botonerainviernoverano{
         width: 100%;
-        margin-top: 100px;
+        margin-top: 70px;
+        padding-bottom: 140px;
         display: flex;
         flex-direction: row;
         align-items:start;
