@@ -12,7 +12,7 @@ header{
         padding-top: 20px;
         padding-bottom: 20px;
 
-        .logo{
+        logo{
             width: 5.125rem;
             height: 5.5rem;
             padding-left: 50px;
@@ -179,6 +179,7 @@ header{
         margin-right: 7%;
         margin-left: 7%;
         padding-top: 70px;
+    }
 
         h2{
             color: #E3D8C2;
@@ -197,6 +198,7 @@ header{
             text-edge: cap; */
             font-family: Montserrat;
             font-size: 1.562rem;
+
         }
 
         .botonerainviernoverano{
@@ -1082,3 +1084,4 @@ header{
 
 }
     
+
