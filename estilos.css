@@ -193,12 +193,13 @@ header{
         p{
             color: #E3D8C2;
             text-align: center;
-            leading-trim: both;
-            text-edge: cap;
+           /* leading-trim: both;
+            text-edge: cap; */
             font-family: Montserrat;
-            font-size: 1.562
+            font-size: 1.562rem;
+        }
 
-    .botonerainviernoverano{
+        .botonerainviernoverano{
         width: 100%;
         margin-top: 70px;
         padding-bottom: 140px;
@@ -384,7 +385,7 @@ header{
         }
     }
     
-    }
+    
 
 
 }
@@ -1080,3 +1081,4 @@ header{
     }
 
 }
+    
