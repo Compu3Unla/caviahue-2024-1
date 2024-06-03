@@ -1150,4 +1150,229 @@ header{
 
 }
     
+/*-------------------PAGINA CONTACTO--------------------*/
 
+
+.pagina_contactos {
+    display: flex;
+    width: auto;
+    height: 650px;
+    padding-left: 250px;
+    align-items: center;
+    gap: 10px;
+    background-color: aqua;
+    font-size: 4.375rem;
+    }
+    
+    /*-------------------RESERVAS--------------------*/
+    
+    .section_reservas, .section_sumatealequipo {
+    display: flex;
+    width: auto;
+    padding-bottom: 150px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    }
+    
+    .titulo_reservas {
+    display: flex;
+    width: 100%;
+    padding: 80px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #042A2D;
+    color: #E3D8C2;
+    font-size: 3rem;
+    }
+    
+    .subtitulo_reservas {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: auto;
+    text-align: center;
+    color: #042A2D;
+    flex-direction: column;
+    font-size: 1.5rem;
+    }
+    
+    /*-------------------FORMULARIO RESERVAS--------------------*/
+    
+    
+    .boton_enviar_formulariosweb {
+    color: #02776D;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    padding: 6px 20px;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #02776D;
+    background-color: transparent;
+    cursor: pointer;
+    }
+    
+    ::placeholder {
+    color: #E3D8C2;
+    font-style: italic;
+    }
+    
+    .boton_enviar_formulariosweb:hover {
+    color: #E3D8C2;
+    background-color:#02776D;
+    }
+    
+    .formulario_reservas {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    }
+    
+    .estilo_input {
+    padding: 15px 280px 15px 30px;
+    border-radius: 30px;
+    background-color: #02776D;
+    color: #E3D8C2;
+    }
+    
+    .contenedor_formulario {
+    display: flex;
+    padding: 30px 0px 30px 0px;
+    align-items: flex-start;
+    gap: 30px;
+    }
+    
+    .columna_completar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    }
+    
+    .columna_escribinos {
+    display: flex;
+    padding: 15px 365px 165px 30px;border-radius: 30px;
+    background-color: #02776D;
+    align-items: center;
+    color: #E3D8C2;
+    }
+    
+    /*-------------------SUSCRIBITE PARA MAS--------------------*/
+    
+    .formulario_subscribite {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    }
+    
+    .texto_subscribite, .texto_unite {
+        color: #042A2D;
+    }
+    
+    .texto_subscribite {
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    }
+    
+    .texto_unite {
+    font-size: 1.5rem;
+    }
+    
+    .ingresa_email {
+    padding: 17px 600px 17px 30px;
+    border-radius: 100px;
+    background-color: #02776D;
+    color: #E3D8C2;
+    }
+    /*-------------------FIN RESERVAS--------------------*/
+    
+    /*-------------------SUMATE AL EQUIPO--------------------*/
+    
+    .completatusdatos {
+    font-size: 2rem;
+    font-weight: bold;
+    }
+    
+    .columna_subircv {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    }
+    
+    .subircv {
+    display: flex;
+    padding: 15px 365px 245px 30px;border-radius: 30px;
+    background-color: #02776D;
+    align-items: center;
+    color: #E3D8C2;
+    }
+    
+    .estilo_input_largo {
+    padding: 15px 505px 15px 30px;
+    border-radius: 30px;
+    background-color: #02776D;
+    color: #E3D8C2;
+    }
+    
+    /*-------------------FIN SUMATE AL EQUIPO--------------------*/
+    
+    /*-------------------NUESTROS CONTACTOS--------------------*/
+    
+    .columnas_contactos {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 7.5rem;
+    }
+    
+    .contactolista {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 3rem;
+    font-size: 1.25rem;
+    color: #042A2D;
+    }
+    
+    .contactolista li{
+        display: inline-block;
+        flex-direction: column;
+        margin-right: 50px;
+        font-size: 18px;
+    }
+    
+    .contactolista li img {
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 5px;
+    }
+    
+    .titulocomollegar {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #042A2D;
+    }
+    
+    .textocomollegar {
+    font-size: 1.25rem;
+    color: #042A2D;
+    width: 39.375rem;
+    }
