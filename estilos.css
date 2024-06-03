@@ -16,13 +16,14 @@ header{
         justify-content: space-between;
         padding-top: 20px;
         padding-bottom: 20px;
+	}
         
 
         .logo{
             width: 5.125rem;
             height: 5.5rem;
             padding-left: 50px;
-        }
+		}
         
         ul{
             display: flex;
