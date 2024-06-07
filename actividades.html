@@ -2,9 +2,9 @@
 <html>
 <head>
 <meta charset="utf-8">
-	<title>Actividades</title>
+<title>Actividades</title>
 	<link href="estilos.css" rel="stylesheet" type="text/css">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--esto es para q se pueda hacer el responsive // van en todos-->	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--esto es para q se pueda hacer el responsive // van en todos-->
 </head>
 
 <body>
@@ -38,7 +38,7 @@
 					</div>
 				</li>
 				<li class="dropdown">
-					<a href="#" class="dropbtn">Informacion</a>
+					<a href="#" class="dropbtn">Contacto</a>
 					<div class="dropdown-content">
 						<a href="#">Sponsors</a>
 						<a href="#">Reserva</a>
@@ -51,82 +51,94 @@
     </header>
 
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
 	
 	<main>
-		<!--BANNER-->
+		
+		
+<!--BANNER-->
 		<section class="presentacion">
 			<h1>Actividades</h1>
 			<img src="img/actividades/banner-actividades.jpg" alt="Foto de ski">
 		</section>
-		<!--SECCION EXCURSIONES-->
+		
+		
+		
+		
+<!--SECCION EXCURSIONES-->
 		<section class="excursiones">
 			<div>
 				<h2>Excursiones</h2>
 			</div>
-			<div>
+			<div id="info-excursiones">
 				<article class="moto-de-nieve">
-					<img src="img/svg/invierno.svg" alt="Actividad de invierno">
-					<img src="img/actividades/img-motonieve.jpg" alt="Moto de nieve">
-					<div>
-						<h4>Moto de nieve</h4>
-						<h5>Laguna Escondida y mirador Caviahue</h5>
-						<p>Duración: 40 minutos aprox. Visita a la laguna Escondida donde se aprecia la hermosa vista de la villa Caviahue y el lago.</p>
-						
-						<h5>Hito Pucon Maihuada</h5>
-						<p>Duración: 1hs aprox. Una travesía de alta montaña única e inolvidable en donde llegaremos a Hito Pucon Maihuada que queda en la frontera con Chile.</p>
-						
-						<h5>Cascada Congelada Valle de Jara</h5>
-						<p>Duración: 30 minutos aprox. Paseo a través del bosque de araucarias hacia la cascada congelada, donde podremos caminar por debajo de la helada cascada y tomarnos unas fotos increibles.</p>
+					<img src="img/svg/invierno.svg" alt="Actividad de invierno" class="invierno">
+					<img src="img/actividades/img-motonieve.jpg" alt="Moto de nieve" class="foto-excursion">
+					<div class="paquete-info-excursiones">
+						<h4 class="titulo-de-excursiones">Moto de nieve</h4>
+                        <div class="informacion-excursiones">
+                          <h5>Laguna Escondida y mirador Caviahue</h5>
+                          <p>Duración: 40 minutos aprox. Visita a la laguna Escondida donde se aprecia la hermosa vista de la villa Caviahue y el lago.</p>
+                          
+                          <h5>Hito Pucon Maihuada</h5>
+                          <p>Duración: 1hs aprox. Una travesía de alta montaña única e inolvidable en donde llegaremos a Hito Pucon Maihuada que queda en la frontera con Chile.</p>
+                          
+                          <h5>Cascada Congelada Valle de Jara</h5>
+                          <p>Duración: 30 minutos aprox. Paseo a través del bosque de araucarias hacia la cascada congelada, donde podremos caminar por debajo de la helada cascada y tomarnos unas fotos increibles.</p>
+                        </div>
 						
 						<button>Boton reservar</button>
 					</div>
 				</article>
 				
 				<article class="experiencia-free-ride">
-					<img src="img/svg/invierno.svg" alt="Actividad de invierno">
-					<img src="img/actividades/img-freeride.jpg" alt="Moto de nieve">
-					<div>
-						<h4>Experiencia Free Ride</h4>
-						<h5>Free Ride Nº1</h5>
-						<p>Duración: 3hs aprox. Vehículos oruga nos acercan a la zona deseada, en donde un instructor nos guiará a los mejores descensos.</p>
-						
-						<h5>Free Ride Nº2</h5>
-						<p>Duración: 6hs aprox. Vehículos oruga nos acercan a la zona deseada, en donde un instructor nos guiará a los mejores descensos, se podran apreciar mejores vistas que en el de 3hs.</p>
+					<img src="img/svg/invierno.svg" alt="Actividad de invierno" class="invierno">
+					<img src="img/actividades/img-freeride.jpg" alt="Moto de nieve" class="foto-excursion">
+					<div class="paquete-info-excursiones">
+						<h4 class="titulo-de-excursiones">Experiencia Free Ride</h4>
+                        <div class="informacion-excursiones">
+                          <h5>Free Ride Nº1</h5>
+                          <p>Duración: 3hs aprox. Vehículos oruga nos acercan a la zona deseada, en donde un instructor nos guiará a los mejores descensos.</p>
+                          
+                          <h5>Free Ride Nº2</h5>
+                          <p>Duración: 6hs aprox. Vehículos oruga nos acercan a la zona deseada, en donde un instructor nos guiará a los mejores descensos, se podran apreciar mejores vistas que en el de 3hs.</p>
+                        </div>
 						
 						<button>Boton reservar</button>
 					</div>
 				</article>
 				
 				<article class="vehiculos-oruga">
-					<img src="img/svg/invierno.svg" alt="Actividad de invierno">
-					<img src="img/actividades/img-oruga.jpg" alt="Vehiculos oruga">
-					<div> <!--ver como hacer para que quede bien los parrafos-->
-						<h4>Veh&iacute;culos Oruga</h4>
-						<h5>Villa Termal Copahue</h5>
-						<p>Duración: 4 hs aprox. Visitaremos la zona Geotermal, donde conocerás las aguas, azufres, fumarolas, vapores y fangos. Viví la experiencia de Copahue bajo la nieve.</p>
-						
-						<h5>Snow City</h5>
-						<p>Duración: 2hs y media aprox. Visitaremos el mirador de Caviahue, con vista panorámica del Lago Caviahue y de la villa. Cupo mínimo: 6 personas. Vehículos: hagglund / snowtrack</p>
-						
-						<h5>Hito Pucon Maihuada</h5>
-						<p>Duración: 2hs aprox. Excursión guiada por profesionales y descensos fuera de pistas por nuieves vírgenes. Cupo mínimo: 6 personas. Vehículos: hagglund / snowtrack</p>
+					<img src="img/svg/invierno.svg" alt="Actividad de invierno" class="invierno">
+					<img src="img/actividades/img-oruga.jpg" alt="Vehiculos oruga" class="foto-excursion">
+					<div class="paquete-info-excursiones"> <!--ver como hacer para que quede bien los parrafos-->
+						<h4 class="titulo-de-excursiones">Veh&iacute;culos Oruga</h4>
+						<div class="informacion-excursiones">
+							<p id="villa-termal">Villa Termal Copahue
+								Duración: 4 hs aprox. Visitaremos la zona Geotermal, donde conocerás las aguas, azufres, fumarolas, vapores y fangos. Viví la experiencia de Copahue bajo la nieve.</p>
+							
+							<h5>Snow City</h5>
+							<p>Duración: 2hs y media aprox. Visitaremos el mirador de Caviahue, con vista panorámica del Lago Caviahue y de la villa. Cupo mínimo: 6 personas. Vehículos: hagglund / snowtrack</p>
+							
+							<h5>Hito Pucon Maihuada</h5>
+							<p>Duración: 2hs aprox. Excursión guiada por profesionales y descensos fuera de pistas por nuieves vírgenes. Cupo mínimo: 6 personas. Vehículos: hagglund / snowtrack</p>
+						</div>
 						
 						<button>Boton reservar</button>
 					</div>
 				</article>
 			</div>
 		</section>
-	<!--SECCION EXCURSIONES-->
+		
+		
+		
+		
+		
+		
+		
+		
+		
+<!--SECCION ESCUELA SKI-->
 		<section class="escuela-ski">
 			<div>
 				<h2>Escuelas de ski y snowboard</h2>
@@ -149,15 +161,15 @@
 						En la guardería no se sirve almuerzo</p>
 				</div>
 			</article>
-			<!--xx-->
+			<!--jardin de nieve-->
 			<article>
-				<div> <!--fotito x-->
+				<div> <!--fotito jardin de nieve-->
 					<img src="img/jardin-nieve.jpg" alt="jardin de nieve">
 					<h6>Desde 3 a&ntilde;os hasta 5 años</h6>
-					<h5>Guardería Los Pumitas</h5>
+					<h5>Jardín de Nieve</h5>
 					<button>Boton reservar</button>
 				</div>
-				<!--texto x //// ver como hacer para que quede bien el parrafo-->
+				<!--texto jardin de nieve //// ver como hacer para que quede bien el parrafo-->
 				<div> 
 					<h4>Jard&iacute;n de Nieve</h4>
 					<p>Horarios: de 10hs a 12:30hs y a la tarde de 14:30hs a 17hs.
@@ -166,39 +178,181 @@
 						Propuesta que combina la estimulación y el entretenimiento con el aprendizaje de esquí. dentro de ese horario hay 4 horas de esquí dosificadas con sus necesarios descansos y juegos didácticos. Recibimos a los chicos ya equipados con sus respectivos guantes, casco, antiparras, esquís y botas. En el jardin no se sirve almuerzo</p>
 				</div>
 			</article>
-			
-			
-			
-			
-			
-			
-			
+			<!--club junior-->
+			<article>
+				<div> <!--fotito club junior-->
+					<img src="img/club-junior.jpg" alt="club junior">
+					<h6>Desde 6 a 12 años</h6>
+					<h5>Club Junior</h5>
+					<button>Boton reservar</button>
+				</div>
+				<!--texto club junior //// ver como hacer para que quede bien el parrafo-->
+				<div> 
+					<h4>Club Junior</h4>
+					<p>Horarios:  de 10hs a 13:00hs y a la tarde de 14:30hs a 17hs.
+						Contratacion minima: 3 días.
+						Ubicacion: Edificio de la Pista de Ski
+						Inicia los domingos y los lunes y se extiende hasta el viernes. Es un programa de aprendizaje enfocado en el desarrollo técnico y la diversión. En el punto de reunión del Club Junior, se organizan grupos por edades y niveles. Se esquía en variadas pistas para desarrollar la técnica y disfrutar la nieve. En el Club no se sirve almuerzo</p>
+				</div>
+			</article>
+			<!--clases colectivas-->
+			<article>
+				<div> <!--fotito clases colectivas-->
+					<img src="img/colectivas.jpg" alt="clases colectivas">
+					<h6>Mayores a 12 años</h6>
+					<h5>Clases colectivas</h5>
+					<button>Boton reservar</button>
+				</div>
+				<!--texto colectivas //// ver como hacer para que quede bien el parrafo-->
+				<div> 
+					<h4>Clases colectivas</h4>
+					<p>Los adultos también pueden aprender y perfeccionar su nivel de esquí o snowboard. Las clases inician los domingos o lunes y se prolongan hasta el viernes, en grupos de 5 a 10 personas según su nivel, se trabajarán todos los aspectos técnicos durante 2 horas. Se confirman con grupo mínimo de 5 alumnos por por nivel y los horarios de clase son, de: 9-11hs, 11-13hs, 13-15hs  y 15-17hs. La contratación es de 3, 5 o 6 días completos y consecutivos.</p>
+				</div>
+			</article>
+			<!--clases particulares-->
+			<article>
+				<div> <!--fotito particulares-->
+					<img src="img/particulares.jpg" alt="club junior">
+					<h6>Mayores a 12 años</h6>
+					<h5>Clases particulares</h5>
+					<button>Boton reservar</button>
+				</div>
+				<!--texto particulares //// ver como hacer para que quede bien el parrafo-->
+				<div> 
+					<h4>Clases particulares</h4>
+					<p>Las clases particulares pueden ser desde 1 hasta 4 alumnos dentro del mismo grupo familiar o de amigos con el mismo nivel de habilidades. Son personalizadas y pueden elegir la carga horaria (2, 4, 6 y 8 horas) así como los días de clase.</p>
+				</div>
+			</article>
+		</section>
+<!--SECCION VERANO-->
+		<section class="solo-verano">
 			<div>
-			
-			
-			
-			
-			
+				<h2>Exclusivo verano</h2>
 			</div>
-		
-		
-		
-		
-		
-		
-		
-		
+			<!--ahora arrancan a verse las actividaddes-->
+			<div>
+				<!--salto del agrio-->
+				<article> 
+					<img src="img/actividades/salto-del-agrio.jpg" alt="Salto del Agrio">
+					<h6>Duracion: 4hs</h6>
+					<h5>Treking al Salto del Agrio</h5>
+					<button>Boton reservar</button>
+					<img src="img/svg/invierno.svg" alt="Actividad de invierno">
+				</article>
+				<!--Treking a la Laguna Escondida-->
+				<article> 
+					<img src="img/actividades/laguna-escondida.jpg" alt="Laguna Escondida">
+					<h6>Duracion: 3hs</h6>
+					<h5>Treking a la Laguna Escondida</h5>
+					<button>Boton reservar</button>
+					<img src="img/svg/invierno.svg" alt="Actividad de invierno">
+				</article>
+				<!--Pase por la Laguna Hucapen-->
+				<article> 
+					<img src="img/actividades/laguna-hucapen.jpg" alt="Pase por la Laguna Hucapen">
+					<h6>Duracion: 30min a 1hs</h6>
+					<h5>Pase por la Laguna Hucapen</h5>
+					<button>Boton reservar</button>
+					<img src="img/svg/invierno.svg" alt="Actividad de invierno">
+				</article>
+				<!--Treking al Puente de Piedra-->
+				<article> 
+					<img src="img/actividades/puente-de-piedra.jpg" alt="Treking al Puente de Piedra">
+					<h6>Duracion: 6hs</h6>
+					<h5>Treking al Puente de Piedra</h5>
+					<button>Boton reservar</button>
+					<img src="img/svg/invierno.svg" alt="Actividad de invierno">
+				</article>
+				<!--Pesca con Mosca-->
+				<article> 
+					<img src="img/actividades/pesca-con-mosca.jpg" alt="Pesca con Mosca">
+					<h6>Duracion: 3hs</h6>
+					<h5>Pesca con Mosca</h5>
+					<button>Boton reservar</button>
+					<img src="img/svg/invierno.svg" alt="Actividad de invierno">
+				</article>
+				<!--Excursiones al Volcán Copahue-->
+				<article> 
+					<img src="img/actividades/volcan-copahue.jpg" alt="Excursiones al Volcán Copahue">
+					<h6>Duracion: 3hs</h6>
+					<h5>Excursiones al Volcán Copahue</h5>
+					<button>Boton reservar</button>
+					<img src="img/svg/invierno.svg" alt="Actividad de invierno">
+				</article>
+			</div>
+		</section>
+<!--SECCION PASES-->		
+		<section class="pases">
+			<div>
+				<h2>Pases</h2>
+			</div>
+			<div>
+				<img src="img/actividades/lista-precio-pases.png" alt="lista de precios pases">
+			</div>
+			<div>
+				<h5>Temporadas </h5>
+				<ul>
+					<li>Especial: 01/09 al  01/03</li>
+					<li>Baja: 02/03 al 01/05</li>
+					<li>Media: 01/05 al 01/06</li>
+					<li>Alta: 01/06 al 01/09</li>
+				</ul>
+			
+				<p>Tarifas (presentarse con DNI)</p>
+				<ul>
+					<li>Residentes:  50% off</li>
+					<li>Menor: 6 años a 11 años</li>
+					<li>Mayor: 12 años a 64 años</li>
+					<li>Senior: 65 a 69 (Tarifa Menor)</li>
+					<li>Niño: Hasta 5 años gratis</li>
+					<li>Master: 70 años gratis</li>
+				</ul>
+				
+				<h5>Reservas</h5>
+				<p>Podes hacer tu reserva con anticipación mediante nuestras redes sociales:</p>
+				<img src="img/actividades/ig.png" alt="instagram">
+				<img src="img/actividades/telefono.png" alt="telefono">
+				<img src="img/actividades/mail.png" alt="mail">
+				<img src="img/actividades/wpp.png" alt="whatsapp">
+			</div>
+		</section>
+<!--SECCION SKI RENTAL-->		
+		<section class="ski-rental">
+			<div>
+				<h2>Pases</h2>
+			</div>
+			<div>
+				<img src="img/actividades/ski-rental.png" alt="lista de precios ski rental">
+			</div>
+			<div>
+				<p>El alquiler de equipo completo de ski o snowboard no incluye indumentaria ni casco.
+					Alquiler de Equipos
+					Mayor: 140 cms de altura
+					Menor: Hasta 139 cms de altura</p>
+				
+				<h5>Ubicación</h5>
+				<p>Se encuentra ubicado en la Base del Cerro, a metros de la Boletería, la Escuela, los medios de elevación, y de los otros servicios que brinda el Centro de Ski Caviahue.</p>
+				 
+
+				
+				<h5>Reservas</h5>
+				<p>Podes hacer tu reserva con anticipación mediante nuestras redes sociales:</p>
+				<img src="img/actividades/ig.png" alt="instagram">
+				<img src="img/actividades/telefono.png" alt="telefono">
+				<img src="img/actividades/mail.png" alt="mail">
+				<img src="img/actividades/wpp.png" alt="whatsapp">
+			</div>
 		</section>
 	
-	
-	
 	</main>
-	<foote> footer </foote>
 	
 	
 	
 	
 	
+	<footer> footer </footer>
+	
+
 	
 </body>
 </html>
