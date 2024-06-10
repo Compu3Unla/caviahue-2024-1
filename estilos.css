@@ -110,6 +110,7 @@ header{
 
 
 
+
     video{
         position: absolute;
         top: 0%;
@@ -143,91 +144,55 @@ header{
     width: 100%;
     height: auto;
 
-    .botoneraactividades{
+    .container {
         display: flex;
         justify-content: center;
         align-items: center;
-        justify-content: space-between;
-        margin-right: 7%;
-        margin-left: 7%;
         padding-top: 70px;
-        
-        .boton-rental{
-            display: flex;
-            width: 30%;
-            height: auto;
-            padding: 9.8125rem 0rem;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            border-radius: 1.875rem;
-            background: url(img/index/ski\ rental.jpg) lightgray 50% / cover no-repeat;
-            border: none;
-            
-            text-align: center;
-            font-family: Montserrat;
-            font-size: 2.5rem;
-            font-style: normal;
-            font-weight: 700;
-            line-height: normal;
-            color: #E3D8C2;
-            cursor: pointer;
-            transition: 0.5s;
-        }
-
-        button:hover{
-            color: #E3D8C2;
-            background: rgb(4, 42, 45);
-        }
-
-        .boton-pases{
-            display: flex;
-            width: 30%;
-            height: auto;
-            padding: 9.8125rem 0rem;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            border-radius: 1.875rem;
-            background: url(img/index/pases.jpg) lightgray 50% / cover no-repeat;
-            border: none;
-
-            text-align: center;
-            font-family: Montserrat;
-            font-size: 2.5rem;
-            font-style: normal;
-            font-weight: 700;
-            line-height: normal;
-            color: #E3D8C2;
-            cursor: pointer;
-            transition: 0.5s;
-        }
-    
-        .boton-excursiones{
-            display: flex;
-            width: 30%;
-            height: auto;
-            padding: 9.8125rem 0rem;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            border-radius: 1.875rem;
-            background: url(img/index/excursiones.jpg) lightgray 50% / cover no-repeat;
-            border: none;
-           
-            text-align: center;
-            font-family: Montserrat;
-            font-size: 2.5rem;
-            font-style: normal;
-            font-weight: 700;
-            line-height: normal;
-            color: #E3D8C2;
-            cursor: pointer;
-            transition: 0.5s;
-        }
-    
-
+        overflow: hidden;
     }
+    
+    .carousel {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+        width: 100%;
+        max-width: 1200px;
+    }
+    
+    .item {
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-size: cover; 
+        height: 400px;
+        width: 400px;
+        width: auto;
+        background-position: center;
+        border: none;
+        text-align: center;
+        padding: 10px;
+        color: rgb(255, 255, 255); 
+        font-family: Montserrat;
+        font-size: 3.125rem;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.3s, background-image 0.3s;
+    }
+    
+    #ski-rental {
+        background-image: url('img/ski\ rental.jpg');
+    }
+    
+    #pases {
+        background-image: url('img/pases.jpg');
+    }
+    
+    #excursiones {
+        background-image: url('img/excursiones.jpg');
+    }
+    
 
     .presentacion{
         display: flex;
@@ -453,10 +418,6 @@ header{
     
 }    
 
-
-    
-
-
 .escuelas-de-ski{
     h3{
         background: #042A2D;
@@ -477,6 +438,7 @@ header{
 
     .escuelas{
         
+        
         display: flex;
         width: 100%;
         margin-top: 70px;
@@ -485,6 +447,8 @@ header{
         align-content: flex-start;
         gap: 2.5rem;
         flex-wrap: wrap;
+        overflow: hidden; 
+        position: relative; 
         
         .guarderia-los-pumitas{
             display: flex;
@@ -1149,4 +1113,185 @@ header{
 
 }
     
+@media screen and (max-width: 600px) {
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 
+
+
+        nav{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+            width: 80%;
+            
+
+            .logo{
+                padding: 0%;
+                margin: 0%;
+                width: 15%;
+                height: auto;
+            }
+        
+            ul{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 0%;
+                padding: 0%;
+                width: 100%;
+                
+
+                a{
+                    font-size: 17px;
+                    padding: 0.5rem;
+                }
+            }
+        
+        }
+
+
+    }
+
+
+    .bienvenida{
+        h1{
+            font-size: 2rem;
+        }
+    }
+
+    .bajada{
+        .container {
+            overflow-x: auto;
+            scroll-snap-type: x mandatory;
+        }
+    
+        .carousel {
+            display: flex;
+            width: 300%;
+        }
+    
+        .item {
+            flex: 0 0 70%;
+            scroll-snap-align: center;
+            font-size: 2rem;
+        }
+        .presentacion{
+            h2{
+                font-size:30px;
+            }
+
+            p{
+                font-size: 15px;
+            }
+
+            .container {
+                overflow-x: auto;
+                scroll-snap-type: x mandatory;
+            }
+        
+            .carousel {
+                display: flex;
+                width: 300%;
+            }
+        
+            .item {
+                flex: 0 0 70%;
+                scroll-snap-align: center;
+            }
+        }
+        .botonerainviernoverano{
+            width: 100%;
+            margin-top: 70px;
+            padding-bottom: 140px;
+            gap: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items:center;
+            justify-content: center;
+
+            .botonybajada1{
+                .boton1{
+                    font-size: 30px;
+                    padding: 10px 30px;
+                }
+
+                .textoyboton1{
+                    width: 80%;
+
+                    p{
+                        font-size: 15px;
+                    }
+
+                    button{
+                        margin-left: 35%;
+                        padding: 0px;
+                        font-size: 20px;
+                        width: 30%;
+                        height: 10%;
+
+                    }
+                }
+            }
+
+            .botonybajada2{
+                .boton2{
+                    font-size:30px;
+                    padding: 10px 30px;
+
+                }
+
+                .textoyboton2{
+                    width: 80%;
+
+                    p{
+                        font-size: 15px;
+                    }
+
+                    button{
+                        margin-left: 35%;
+                        padding: 0px;
+                        font-size: 20px;
+                        width: 30%;
+                        height: 10%;
+
+                    }
+                }
+            }
+
+            
+
+
+
+
+
+        }
+    }
+    
+    .escuelas {
+        flex-wrap: nowrap; /* Para que los elementos no se envuelvan */
+        overflow-x: scroll; /* Para permitir el desplazamiento horizontal */
+        scroll-snap-type: x mandatory; /* Para el desplazamiento suave */
+    }
+    .escuelas > div {
+        scroll-snap-align: start; /* Cada elemento se alinea al inicio del contenedor */
+        flex: 0 0 100%; /* Cada elemento ocupa el 100% del ancho del contenedor */
+    }
+
+        
+
+       
+}
+
+@media screen and (max-width: 500px) {
+    .bienvenida{
+        h1{
+            font-size: 1.3rem;
+        }
+    }
+
+}
