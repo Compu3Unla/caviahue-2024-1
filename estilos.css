@@ -1378,7 +1378,7 @@ header{
 
 
 /*******************************************PRESENTACION - ro */
-.presentacion{
+.presentacion-ro{
 	display: flex;
 	width: auto;
 	height: 650px;
