@@ -410,7 +410,6 @@ header{
         align-items: center;
         color: #E3D8C2;
         text-align: center;
-        font-family: Montserrat;
         font-size: 3.125rem;
         font-style: normal;
         font-weight: 700;
@@ -451,7 +450,6 @@ header{
             p{
                 color: #E3D8C2;
                 text-align: center;
-                font-family: Montserrat;
                 font-size: 1.25rem;
                 font-style: normal;
                 font-weight: 400;
@@ -461,7 +459,6 @@ header{
             h4{
                 color: #E3D8C2;
                 text-align: center;
-                font-family: Montserrat;
                 font-size: 1.875rem;
                 font-style: normal;
                 font-weight: 700;
@@ -479,7 +476,6 @@ header{
                 border: 3px solid #E3D8C2;
                 color: #E3D8C2;
                 text-align: center;
-                font-family: Montserrat;
                 font-size: 1.75rem;
                 font-style: normal;
                 font-weight: 700;
@@ -510,7 +506,6 @@ header{
             p{
                 color: #E3D8C2;
                 text-align: center;
-                font-family: Montserrat;
                 font-size: 1.25rem;
                 font-style: normal;
                 font-weight: 400;
@@ -520,7 +515,6 @@ header{
             h4{
                 color: #E3D8C2;
                 text-align: center;
-                font-family: Montserrat;
                 font-size: 1.875rem;
                 font-style: normal;
                 font-weight: 700;
@@ -539,7 +533,6 @@ header{
                 border: 3px solid #E3D8C2;
                 color: #E3D8C2;
                 text-align: center;
-                font-family: Montserrat;
                 font-size: 1.75rem;
                 font-style: normal;
                 font-weight: 700;
@@ -570,7 +563,6 @@ header{
             p{
                 color: #E3D8C2;
                 text-align: center;
-                font-family: Montserrat;
                 font-size: 1.25rem;
                 font-style: normal;
                 font-weight: 400;
@@ -580,7 +572,6 @@ header{
             h4{
                 color: #E3D8C2;
                 text-align: center;
-                font-family: Montserrat;
                 font-size: 1.875rem;
                 font-style: normal;
                 font-weight: 700;
@@ -599,7 +590,6 @@ header{
                 border: 3px solid #E3D8C2;
                 color: #E3D8C2;
                 text-align: center;
-                font-family: Montserrat;
                 font-size: 1.75rem;
                 font-style: normal;
                 font-weight: 700;
@@ -630,7 +620,6 @@ header{
             p{
                 color: #E3D8C2;
                 text-align: center;
-                font-family: Montserrat;
                 font-size: 1.25rem;
                 font-style: normal;
                 font-weight: 400;
@@ -640,7 +629,6 @@ header{
             h4{
                 color: #E3D8C2;
                 text-align: center;
-                font-family: Montserrat;
                 font-size: 1.875rem;
                 font-style: normal;
                 font-weight: 700;
@@ -659,7 +647,6 @@ header{
                 border: 3px solid #E3D8C2;
                 color: #E3D8C2;
                 text-align: center;
-                font-family: Montserrat;
                 font-size: 1.75rem;
                 font-style: normal;
                 font-weight: 700;
@@ -690,7 +677,6 @@ header{
             p{
                 color: #E3D8C2;
                 text-align: center;
-                font-family: Montserrat;
                 font-size: 1.25rem;
                 font-style: normal;
                 font-weight: 400;
@@ -700,7 +686,6 @@ header{
             h4{
                 color: #E3D8C2;
                 text-align: center;
-                font-family: Montserrat;
                 font-size: 1.875rem;
                 font-style: normal;
                 font-weight: 700;
@@ -719,7 +704,6 @@ header{
                 border: 3px solid #E3D8C2;
                 color: #E3D8C2;
                 text-align: center;
-                font-family: Montserrat;
                 font-size: 1.75rem;
                 font-style: normal;
                 font-weight: 700;
@@ -752,7 +736,6 @@ header{
         align-items: center;
         color: #E3D8C2;
         text-align: center;
-        font-family: Montserrat;
         font-size: 3.125rem;
         font-style: normal;
         font-weight: 700;
@@ -792,8 +775,7 @@ header{
 
             h4{
                 color: #E3D8C2;
-                text-align: center;
-                font-family: Montserrat;
+                text-align: center; 
                 font-size: 1.875rem;
                 font-style: normal;
                 font-weight: 700;
@@ -812,7 +794,6 @@ header{
                 border: 3px solid #E3D8C2;
                 color: #E3D8C2;
                 text-align: center;
-                font-family: Montserrat;
                 font-size: 1.75rem;
                 font-style: normal;
                 font-weight: 700;
@@ -844,7 +825,6 @@ header{
             h4{
                 color: #E3D8C2;
                 text-align: center;
-                font-family: Montserrat;
                 font-size: 1.875rem;
                 font-style: normal;
                 font-weight: 700;
@@ -863,7 +843,6 @@ header{
                 border: 3px solid #E3D8C2;
                 color: #E3D8C2;
                 text-align: center;
-                font-family: Montserrat;
                 font-size: 1.75rem;
                 font-style: normal;
                 font-weight: 700;
@@ -893,7 +872,6 @@ header{
         align-items: center;
         color: #E3D8C2;
         text-align: center;
-        font-family: Montserrat;
         font-size: 3.125rem;
         font-style: normal;
         font-weight: 700;
@@ -931,7 +909,6 @@ header{
             p{
                 color: #E3D8C2;
                 text-align: center;
-                font-family: Montserrat;
                 font-size: 1.25rem;
                 font-style: normal;
                 font-weight: 400;
@@ -942,7 +919,6 @@ header{
                 width: 80%;
                 color: #E3D8C2;
                 text-align: center;
-                font-family: Montserrat;
                 font-size: 1.875rem;
                 font-style: normal;
                 font-weight: 700;
@@ -961,7 +937,6 @@ header{
                 border: 3px solid #E3D8C2;
                 color: #E3D8C2;
                 text-align: center;
-                font-family: Montserrat;
                 font-size: 1.75rem;
                 font-style: normal;
                 font-weight: 700;
@@ -992,7 +967,6 @@ header{
             p{
                 color: #E3D8C2;
                 text-align: center;
-                font-family: Montserrat;
                 font-size: 1.25rem;
                 font-style: normal;
                 font-weight: 400;
@@ -1003,7 +977,6 @@ header{
                 width: 80%;
                 color: #E3D8C2;
                 text-align: center;
-                font-family: Montserrat;
                 font-size: 1.875rem;
                 font-style: normal;
                 font-weight: 700;
@@ -1022,7 +995,6 @@ header{
                 border: 3px solid #E3D8C2;
                 color: #E3D8C2;
                 text-align: center;
-                font-family: Montserrat;
                 font-size: 1.75rem;
                 font-style: normal;
                 font-weight: 700;
@@ -1053,7 +1025,6 @@ header{
             p{
                 color: #E3D8C2;
                 text-align: center;
-                font-family: Montserrat;
                 font-size: 1.25rem;
                 font-style: normal;
                 font-weight: 400;
@@ -1064,7 +1035,6 @@ header{
                 width: 80%;
                 color: #E3D8C2;
                 text-align: center;
-                font-family: Montserrat;
                 font-size: 1.875rem;
                 font-style: normal;
                 font-weight: 700;
@@ -1083,7 +1053,7 @@ header{
                 border: 3px solid #E3D8C2;
                 color: #E3D8C2;
                 text-align: center;
-                font-family: Montserrat;
+
                 font-size: 1.75rem;
                 font-style: normal;
                 font-weight: 700;
@@ -1434,20 +1404,23 @@ header{
     /*-------------------PAGINA CONTACTO--------------------*/
 .pagina_contactos {
     display: flex;
-    width: auto;
-    height: 650px;
-    padding-left: 250px;
+    width: 100%;
+    height: 100vh;
     align-items: center;
     gap: 10px;
-    background-color: aqua;
-    font-size: 4.375rem;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url("img/actividades/banner-actividades.jpg") lightgray 50% / cover no-repeat;
+    font-size: 4rem;
+    color: #E3D8C2;
+        h1{
+            margin-left: 250px;
+        }
     }
     
     /*-------------------RESERVAS--------------------*/
     
     .section_reservas, .section_sumatealequipo {
     display: flex;
-    width: auto;
+    width: 100%;
     padding-bottom: 150px;
     flex-direction: column;
     justify-content: center;
@@ -1456,15 +1429,15 @@ header{
     }
     
     .titulo_reservas {
-    display: flex;
-    width: 100%;
-    padding: 80px 0px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    background-color: #042A2D;
-    color: #E3D8C2;
-    font-size: 3rem;
+        display: flex;
+        width: 100%;
+        padding: 80px 0px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        background-color: #042A2D;
+        color: #E3D8C2;
+        font-size: 3rem;
     }
     
     .subtitulo_reservas {
@@ -1522,6 +1495,8 @@ header{
     border-radius: 30px;
     background-color: #02776D;
     color: #E3D8C2;
+    border: none;
+    outline: none;
     }
     
     .contenedor_formulario {
@@ -1544,6 +1519,8 @@ header{
     background-color: #02776D;
     align-items: center;
     color: #E3D8C2;
+    border: none;
+    outline: none;
     }
     
     /*-------------------SUSCRIBITE PARA MAS--------------------*/
@@ -1555,6 +1532,7 @@ header{
     justify-content: center;
     align-items: flex-start;
     gap: 30px;
+    
     }
     
     .texto_subscribite, .texto_unite {
@@ -1573,10 +1551,12 @@ header{
     }
     
     .ingresa_email {
-    padding: 17px 600px 17px 30px;
-    border-radius: 100px;
-    background-color: #02776D;
-    color: #E3D8C2;
+        padding: 17px 600px 17px 30px;
+        border-radius: 100px;
+        background-color: #02776D;
+        color: #E3D8C2;
+        border: none;
+        outline: none;
     }
     /*-------------------FIN RESERVAS--------------------*/
     
