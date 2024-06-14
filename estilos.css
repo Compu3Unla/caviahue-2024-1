@@ -1,6 +1,7 @@
 *{
     margin: 0%;
     padding: 0%;
+	font-family: Montserrat;
 }
 
 header{
@@ -16,12 +17,14 @@ header{
         justify-content: space-between;
         padding-top: 20px;
         padding-bottom: 20px;
+	
+        
 
         .logo{
             width: 5.125rem;
             height: 5.5rem;
             padding-left: 50px;
-        }
+		}
         
         ul{
             display: flex;
@@ -1099,6 +1102,7 @@ header{
 
 }
     
+
 @media screen and (max-width: 600px) {
     header{
         display: flex;
@@ -1426,4 +1430,747 @@ header{
             }
         }
     }
+/*-------------------PAGINA CONTACTO--------------------*/
+.pagina_contactos {
+    display: flex;
+    width: auto;
+    height: 650px;
+    padding-left: 250px;
+    align-items: center;
+    gap: 10px;
+    background-color: aqua;
+    font-size: 4.375rem;
+    }
+    
+    /*-------------------RESERVAS--------------------*/
+    
+    .section_reservas, .section_sumatealequipo {
+    display: flex;
+    width: auto;
+    padding-bottom: 150px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    }
+    
+    .titulo_reservas {
+    display: flex;
+    width: 100%;
+    padding: 80px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #042A2D;
+    color: #E3D8C2;
+    font-size: 3rem;
+    }
+    
+    .subtitulo_reservas {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: auto;
+    text-align: center;
+    color: #042A2D;
+    flex-direction: column;
+    font-size: 1.5rem;
+    }
+    
+    /*-------------------FORMULARIO RESERVAS--------------------*/
+    
+    
+    .boton_enviar_formulariosweb {
+    color: #02776D;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    padding: 6px 20px;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #02776D;
+    background-color: transparent;
+    cursor: pointer;
+    }
+    
+    ::placeholder {
+    color: #E3D8C2;
+    font-style: italic;
+    }
+    
+    .boton_enviar_formulariosweb:hover {
+    color: #E3D8C2;
+    background-color:#02776D;
+    }
+    
+    .formulario_reservas {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    }
+    
+    .estilo_input {
+    padding: 15px 280px 15px 30px;
+    border-radius: 30px;
+    background-color: #02776D;
+    color: #E3D8C2;
+    }
+    
+    .contenedor_formulario {
+    display: flex;
+    padding: 30px 0px 30px 0px;
+    align-items: flex-start;
+    gap: 30px;
+    }
+    
+    .columna_completar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    }
+    
+    .columna_escribinos {
+    display: flex;
+    padding: 15px 365px 165px 30px;border-radius: 30px;
+    background-color: #02776D;
+    align-items: center;
+    color: #E3D8C2;
+    }
+    
+    /*-------------------SUSCRIBITE PARA MAS--------------------*/
+    
+    .formulario_subscribite {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    }
+    
+    .texto_subscribite, .texto_unite {
+        color: #042A2D;
+    }
+    
+    .texto_subscribite {
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    }
+    
+    .texto_unite {
+    font-size: 1.5rem;
+    }
+    
+    .ingresa_email {
+    padding: 17px 600px 17px 30px;
+    border-radius: 100px;
+    background-color: #02776D;
+    color: #E3D8C2;
+    }
+    /*-------------------FIN RESERVAS--------------------*/
+    
+    /*-------------------SUMATE AL EQUIPO--------------------*/
+    
+    .completatusdatos {
+    font-size: 2rem;
+    font-weight: bold;
+    }
+    
+    .columna_subircv {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    }
+    
+    .subircv {
+    display: flex;
+    padding: 15px 365px 245px 30px;border-radius: 30px;
+    background-color: #02776D;
+    align-items: center;
+    color: #E3D8C2;
+    }
+    
+    .estilo_input_largo {
+    padding: 15px 505px 15px 30px;
+    border-radius: 30px;
+    background-color: #02776D;
+    color: #E3D8C2;
+    }
+    
+    /*-------------------FIN SUMATE AL EQUIPO--------------------*/
+    
+    /*-------------------NUESTROS CONTACTOS--------------------*/
+    
+    .columnas_contactos {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 7.5rem;
+    }
+    
+    .contactolista {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 3rem;
+    font-size: 1.25rem;
+    color: #042A2D;
+    }
+    
+    .contactolista li{
+        display: inline-block;
+        flex-direction: column;
+        margin-right: 50px;
+        font-size: 18px;
+    }
+    
+    .contactolista li img {
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 5px;
+    }
+    
+    .titulocomollegar {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #042A2D;
+    }
+    
+    .textocomollegar {
+    font-size: 1.25rem;
+    color: #042A2D;
+    width: 39.375rem;
+    }
+
+
+/*******************************************PRESENTACION - ro */
+.presentacion{
+	display: flex;
+	width: auto;
+	height: 650px;
+	padding-left: 250px;
+	align-items: center;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url("img/actividades/banner-actividades.jpg") lightgray 50% / cover no-repeat;
+	font-family: Montserrat;
+    font-size: 4.375rem;
+	color: #E3D8C2;
+	text-align: center;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+
+/*******************************************GENERALES - ro */
+
+.banner-color{
+	display: flex;
+	width: 100%;
+	height: auto;
+	padding: 80px 0px 80px 0px;
+	gap: 0px;
+	justify-content: center;
+	align-items: center;
+	background: #042A2D;
+	color: #E3D8C2;
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 3.125rem;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.reservar-btn {
+	display: flex;
+	width: 11.8125rem;
+	height: 3.3125rem;
+	padding: 0.6875rem 2.1875rem;
+	justify-content: center;
+	align-items: center;
+	border: 5px solid #E3D8C2;
+	color: #E3D8C2;
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 2rem;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	background-color: transparent;
+}
+
+h4{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #E3D8C2;
+	leading-trim: both;
+	text-edge: cap;
+	font-family: Montserrat;
+	font-size: 3.125rem;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+h6{
+	color: #E3D8C2;
+	text-align: center;
+	leading-trim: both;
+	text-edge: cap;
+	font-family: Montserrat;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+h5{
+	color: #E3D8C2;
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+h3{
+	color: #E3D8C2;
+	leading-trim: both;
+	text-edge: cap;
+	font-family: Montserrat;
+	font-size: 1.5625rem;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+
+/*******************************************SECCION EXCURSIONES - ro */
+
+.excursiones{
+	display: flex;
+	height: auto;
+	widht: 100%;
+	flex-direction: column;
+	align-items: center;
+}
+
+.todos-los-article-excursiones{
+	display: flex;
+	width: auto;
+	padding-top: 80px;
+	padding-bottom: 200px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 80px;
+}
+
+.moto-de-nieve, .free-ride, .vehiculos-oruga{
+	display: flex;
+	width: 75%;
+	height: auto;
+	padding: 70px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 66px;
+	border-radius: 2.5625rem;
+	background: #02776D;
+}
+
+.invierno {
+	width: 4.98575rem;
+	height: 5.1875rem;
+}
+
+.foto-excursion{
+	width: 100%;
+	height: auto;
+	border-radius: 50px;
+	opacity: 0px;
+}
+
+.titulo-de-excursiones /*?????????*/
+
+.paquete-info-excursiones{
+	width: 1510px;
+	height: auto;
+	border: 1px 0px 0px 0px;
+	opacity: 0px;
+
+}
+
+.data-excursiones{
+}
+
+
+/*******************************************SECCION ESCUELA SKI - ro */
+.escuela-ski{
+	display: flex;
+	width: 100%;
+	padding-top: 200px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 80px;
+	border-radius: 40px;
+	background: #FFF;
+}
+
+.todos-los-article-escuela-ski{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 80px;
+}
+
+.paquete-info-escuela-ski{
+	display: flex;
+	width: 50%;
+	padding: 70px 80px 40px 80px;
+	justify-content: center;
+	align-items: flex-start;
+	border-radius: 40px;
+	background: #042A2D;
+}
+
+.foto-info-escuela-ski{
+	display: flex;
+	padding: 0px 40px;
+	flex-direction: column;
+	align-items: center;
+	display: flex;
+	width: auto;
+	height: 50%;
+	padding: 0px 22px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 18px;
+	
+}
+
+.foto-escuela-ski{
+	width: auto;
+	height: auto;
+	border-radius: 30px;
+}
+
+.texto-info-escuela-ski{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 40px;
+	
+}
+
+.texto-info-escuela-ski p{
+	width: inherit;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	color: #E3D8C2;
+	leading-trim: both;
+	text-edge: cap;
+	font-family: Montserrat;
+	font-size: 1.5625rem;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	color: #E3D8C2;
+	leading-trim: both;
+	text-edge: cap;
+	font-family: Montserrat;
+	font-size: 1.5625rem;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+
+/*******************************************SECCION VERANO - ro */
+.solo-verano{
+	display: flex;
+	widht: 100%;
+	height: auto;
+	padding-top: 200px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 80px;
+	border-radius: 40px;
+	background: #FFF;
+}
+
+.banner-color-exlusivo-verano{
+	display: flex;
+	width: 100%;
+	height: auto;
+	padding: 80px 0px 80px 0px;
+	gap: 0px;
+	justify-content: center;
+	align-items: center;
+	background: #002034;
+	color: #E3D8C2;
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 3.125rem;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.todos-los-article-verano{
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	align-content: flex-start;
+	gap: 40px;
+	flex-shrink: 0;
+	flex-wrap: wrap;
+}
+
+.paquete-info-verano{ /*article*/
+	display: flex;
+	padding: 30px 30px 40px 30px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 47px;
+	border-radius: 30px;
+	background: #002034;
+}
+
+.foto-verano{ /*lo de adentro*/
+	width: 26.5625rem;
+	height: 22.1875rem;
+	border-radius: 1.875rem;	
+}
+
+.info-verano{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+/*******************************************SECCION PASES - ro */
+.pases{
+	display: flex;
+	widht: 100%;
+	padding-top: 200px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 80px;
+}
+
+.foto-lista-de-precios-pases{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	width: 80%;
+	height: auto;
+}
+
+.paquete-info-pases{
+	display: flex;
+	width: 62%;
+	padding: 40px 122px;
+	justify-content: center;
+	align-items: center;
+	gap: 80px;
+	border-radius: 20px;
+	background: #042A2D;
+	
+}
+
+.data-pases-1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;	
+}
+
+.lista-no-punteada-pases{
+
+}
+
+.data-pases-2{
+	display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+	
+}
+
+.lista-punteada-pases{
+
+}
+
+.data-pases-3{
+	display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+	
+}
+.redes-sociales-pases{
+	
+}
+
+
+
+/*******************************************SECCION SKI RENTAL - ro */
+
+
+.ski-rental{
+	display: flex;
+	width: 100%;
+	padding: 200px 0px 300px 0px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 80px;
+	border-radius: 40px;
+	background: #FFF;
+}
+
+.banner-color-ski-rental{
+	display: flex;
+	width: 100%;
+	height: auto;
+	padding: 80px 0px 80px 0px;
+	gap: 0px;
+	justify-content: center;
+	align-items: center;
+	background: #02776D;
+	color: #E3D8C2;
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 3.125rem;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+
+.foto-lista-de-precios-ski-rental{
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+
+
+.paquete-info-ski-rental{
+	display: flex;
+	padding: 40px 122px;
+	justify-content: center;
+	align-items: center;
+	gap: 80px;
+	border-radius: 20px;
+	background: #02776D;
+
+}
+
+/*
+.escuela-ski{
+	display: flex;
+	widht: 100%;
+	padding-top: 200px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 80px;
+}
+
+.todos-los-article-escuela-ski{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 80px;
+	box-sizing: border-box;
+}
+
+
+.paquete-info-escuela-ski{
+	display: flex;
+	width: 50%;
+	height: auto;
+	padding: 70px 80px 40px 80px;
+	justify-content: center;
+	align-items: flex-start;
+	border-radius: 40px;
+	background: #042A2D;
+}
+
+.foto-info-escuela-ski{
+	padding: 0px 40px;
+	display: flex;
+	flex-direction: column;
+	align-items: center; 
+}
+
+.foto-escuela-ski{
+	width: 100%;
+	height: auto;
+	border-radius: 30px;
+}
+
+
+
+
+
+
+
+.texto-info-escuela-ski p{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 0.625rem;
+	width: 64.0625rem;
+	color: #E3D8C2;
+	leading-trim: both;
+	text-edge: cap;
+	font-family: Montserrat;
+	font-size: 1.5625rem;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	color: #E3D8C2;
+	leading-trim: both;
+	text-edge: cap;
+	font-family: Montserrat;
+	font-size: 1.5625rem;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+*/
+
+
 }
