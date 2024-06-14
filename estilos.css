@@ -1430,7 +1430,8 @@ header{
             }
         }
     }
-/*-------------------PAGINA CONTACTO--------------------*/
+}
+    /*-------------------PAGINA CONTACTO--------------------*/
 .pagina_contactos {
     display: flex;
     width: auto;
