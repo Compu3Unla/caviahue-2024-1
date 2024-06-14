@@ -1,13 +1,14 @@
 <!doctype html>
 <html>
-<head>
-<meta charset="utf-8">
-	<title>Caviahue ski resorts</title>
-	<link href="estilos.css" rel="stylesheet" type="text/css">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--esto es para q se pueda hacer el responsive // van en todos-->
-</head>
-	
-<body>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Caviahue ski resorts</title>
+    <link href="estilos.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  </head>
+  <body>
     <header>
 		<nav>
 			<img class="logo" src="img/svg/logo-caviahue.svg" alt="logo">
@@ -50,24 +51,34 @@
 		<div class="capaheader"></div>
     </header>
     
-    <main>
-		<section class="bienvenida">
-			<h1>Bienvenidos a Caviahue</h1>
-			<video src="img/index/carving-dreams-a-skiing-movie.mp4" autoplay loop muted></video>
-			<div class="capa"></div>
-		</section>
-		
-		<section class="bajada">
-			<div class="botoneraactividades">
-				<button class="boton-rental">ski rental</button>
-				<button class="boton-pases"><span>Pases</span></button>
-				<button class="boton-excursiones"><span>Excursiones</span></button>
-			</div>
-			<div class="presentacion">
-			<h2>¿Quiénes somos?</h2>
-			<p>Caviahue Ski Resort es mucho más que un destino invernal. Situado en la majestuosa región de la Patagonia Argentina, este paraíso natural ofrece una variedad de actividades emocionantes durante todo el año.</p>
-			</div>
-		<div class="botonerainviernoverano">
+
+    <main>    
+      
+      <section class="bienvenida">
+        
+        <h1>Bienvenidos a Caviahue</h1>
+        <video src="img/index/carving-dreams-a-skiing-movie.mp4" autoplay loop muted></video>
+        <div class="capa"></div>
+      
+      </section>
+      
+      <section class="bajada">
+        
+        <div class="container">
+          <div class="carousel">
+              <button class="item" id="ski-rental">Ski Rental</button>
+              <button class="item" id="pases">Pases</button>
+              <button class="item" id="excursiones">Excursiones</button>
+          </div>
+      </div>
+        <div class="presentacion">
+          
+          <h2>¿Quiénes somos?</h2>
+          <p>Caviahue Ski Resort es mucho más que un destino invernal. Situado en la majestuosa región de la Patagonia Argentina, este paraíso natural ofrece una variedad de actividades emocionantes durante todo el año.</p>
+        
+        </div>
+        <div class="botonerainviernoverano">
+
           <article class="botonybajada1">
             <input type="checkbox" id="toggleButton1" class="boton1checkbox">
             <label for="toggleButton1" class="boton1">Actividades de Invierno</label>
