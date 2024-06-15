@@ -17,13 +17,19 @@ header{
         justify-content: space-between;
         padding-top: 20px;
         padding-bottom: 20px;
+        margin-left: 5%;
 	
         
 
         .logo{
-            width: 5.125rem;
-            height: 5.5rem;
+            
+            width: 100px;
+            height: 100px;
             padding-left: 50px;
+            background-image: url(img/svg/logo-caviahue.svg);
+            background-size: cover;
+            border: none;
+            border-radius: 20px;
 		}
         
         ul{
