@@ -1701,8 +1701,6 @@ h4{
 	justify-content: center;
 	align-items: center;
 	color: #E3D8C2;
-	leading-trim: both;
-	text-edge: cap;
 	font-family: Montserrat;
 	font-size: 3.125rem;
 	font-style: normal;
@@ -1713,8 +1711,6 @@ h4{
 h6{
 	color: #E3D8C2;
 	text-align: center;
-	leading-trim: both;
-	text-edge: cap;
 	font-family: Montserrat;
 	font-size: 20px;
 	font-style: normal;
@@ -1734,8 +1730,6 @@ h5{
 
 h3{
 	color: #E3D8C2;
-	leading-trim: both;
-	text-edge: cap;
 	font-family: Montserrat;
 	font-size: 1.5625rem;
 	font-style: normal;
@@ -1749,7 +1743,7 @@ h3{
 .excursiones{
 	display: flex;
 	height: auto;
-	widht: 100%;
+	width: 100%;
 	flex-direction: column;
 	align-items: center;
 }
@@ -1880,8 +1874,6 @@ h3{
 	font-weight: 700;
 	line-height: normal;
 	color: #E3D8C2;
-	leading-trim: both;
-	text-edge: cap;
 	font-family: Montserrat;
 	font-size: 1.5625rem;
 	font-style: normal;
@@ -1893,7 +1885,7 @@ h3{
 /*******************************************SECCION VERANO - ro */
 .solo-verano{
 	display: flex;
-	widht: 100%;
+	width: 100%;
 	height: auto;
 	padding-top: 200px;
 	flex-direction: column;
@@ -1959,7 +1951,7 @@ h3{
 /*******************************************SECCION PASES - ro */
 .pases{
 	display: flex;
-	widht: 100%;
+	width: 100%;
 	padding-top: 200px;
 	flex-direction: column;
 	justify-content: center;
@@ -2083,7 +2075,7 @@ align-items: center;
 /*
 .escuela-ski{
 	display: flex;
-	widht: 100%;
+	width: 100%;
 	padding-top: 200px;
 	flex-direction: column;
 	justify-content: center;
@@ -2138,8 +2130,6 @@ align-items: center;
 	gap: 0.625rem;
 	width: 64.0625rem;
 	color: #E3D8C2;
-	leading-trim: both;
-	text-edge: cap;
 	font-family: Montserrat;
 	font-size: 1.5625rem;
 	font-style: normal;
