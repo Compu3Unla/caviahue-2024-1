@@ -165,12 +165,13 @@ header{
         border: none;
         text-align: center;
         padding: 10px;
-        color: rgb(255, 255, 255); 
-        font-family: Montserrat;
-        font-size: 3.125rem;
+        color: #E3D8C2; 
+        font-size: 3rem;
         font-weight: bold;
         transition: 0.3s;
     }
+
+
     #ski-rental {
         background-image: url('img/index/ski\ rental.jpg');
     }
