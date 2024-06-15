@@ -1867,9 +1867,7 @@ h3{
 	align-items: center;
 	gap: 10px;
 	color: #E3D8C2;
-	leading-trim: both;
-	text-edge: cap;
-	font-family: Montserrat;
+    font-family: Montserrat;
 	font-size: 1.5625rem;
 	font-style: normal;
 	font-weight: 700;
