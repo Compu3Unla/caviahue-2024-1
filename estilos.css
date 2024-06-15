@@ -1650,61 +1650,20 @@ header{
     width: 39.375rem;
     }
 
-
-/*******************************************PRESENTACION - ro */
-.presentacion-ro{
-	display: flex;
-	width: auto;
-	height: 650px;
-	padding-left: 250px;
-	align-items: center;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url("img/actividades/banner-actividades.jpg") lightgray 50% / cover no-repeat;
-	font-family: Montserrat;
-    font-size: 4.375rem;
-	color: #E3D8C2;
-	text-align: center;
-	font-style: normal;
-	font-weight: 700;
-	line-height: normal;
-}
-
-
-/*******************************************GENERALES - ro */
-
-.banner-color{
-	display: flex;
-	width: 100%;
-	height: auto;
-	padding: 80px 0px 80px 0px;
-	gap: 0px;
-	justify-content: center;
-	align-items: center;
-	background: #042A2D;
-	color: #E3D8C2;
-	text-align: center;
-	font-family: Montserrat;
-	font-size: 3.125rem;
-	font-style: normal;
-	font-weight: 700;
-	line-height: normal;
-}
-
-.reservar-btn {
-	display: flex;
-	width: 11.8125rem;
-	height: 3.3125rem;
-	padding: 0.6875rem 2.1875rem;
-	justify-content: center;
-	align-items: center;
-	border: 5px solid #E3D8C2;
-	color: #E3D8C2;
-	text-align: center;
-	font-family: Montserrat;
-	font-size: 2rem;
-	font-style: normal;
-	font-weight: 700;
-	line-height: normal;
+/************************************************** ::::: GENERALES - Ro ::::: **************************************************/
+.reservar-btn{
 	background-color: transparent;
+	width: 11.3125rem;
+	height: 3.0625rem;
+	border: 3px solid #E3D8C2;
+	color: #E3D8C2;
+	text-align: center;
+	font-size: 1.75rem;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	margin-bottom: 60px;
+	transition: 0.3s;
 }
 
 h4{
@@ -1748,72 +1707,135 @@ h3{
 	line-height: normal;
 }
 
-
-/*******************************************SECCION EXCURSIONES - ro */
-
-.excursiones{
+h7{
+	color: #E3D8C2;
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 50px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+/************************************************** ::::: PRESENTACION - Ro ::::: **************************************************/
+.presentacion-ro{
 	display: flex;
-	height: auto;
-	width: 100%;
-	flex-direction: column;
+	width: auto;
+	height: 650px;
+	padding-left: 250px;
 	align-items: center;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url("img/actividades/banner-actividades.jpg") lightgray 50% / cover no-repeat;
+	font-family: Montserrat;
+    font-size: 4.375rem;
+	color: #E3D8C2;
+	text-align: center;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+/************************************************** ::::: EXCURSIONES - Ro ::::: **************************************************/
+/*abre banner excursiones*/
+.banner-color{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: auto;
+	background: #042A2D;
+}
+
+.banner-color h2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #E3D8C2;
+	font-size: 3rem;
+	font-style: normal;
+	font-weight: 700;
+}
+/*cierre banner excursiones*/
+
+.container {
+    background-color: #00796b;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 80%;
+    text-align: center;
+}
+
+.header .icon {
+    margin-top: 20px;
+    width: 40px;
+}
+
+.image-container img {
+    width: 80%;
+    height: auto;
+	border-radius: 10px;
+}
+
+.content {
+    padding: 20px;
+}
+
+.card {
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+    color: #E3D8C2;
+}
+
+.card h2 {
+    font-size: 18px;
+    margin: 0 0 10px;
 }
 
 .todos-los-article-excursiones{
 	display: flex;
-	width: auto;
-	padding-top: 80px;
-	padding-bottom: 200px;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	gap: 80px;
+	padding-top: 10%;
+	padding-bottom: 10%;
 }
 
-.moto-de-nieve, .free-ride, .vehiculos-oruga{
+.excursiones-ro{
 	display: flex;
-	width: 75%;
+	width: 100%;
 	height: auto;
-	padding: 70px;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	gap: 66px;
-	border-radius: 2.5625rem;
-	background: #02776D;
+	border-radius: 40px;
+	background: #FFF;
 }
-
-.invierno {
-	width: 4.98575rem;
-	height: 5.1875rem;
-}
-
-.foto-excursion{
+/*******************************************SECCION ESCUELA SKI - ro */
+.banner-color{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	width: 100%;
 	height: auto;
-	border-radius: 50px;
-	opacity: 0px;
+	padding: 80px 0px 80px 0px;
+	background: #042A2D;
 }
 
-.titulo-de-excursiones /*?????????*/
-
-.paquete-info-excursiones{
-	width: 1510px;
-	height: auto;
-	border: 1px 0px 0px 0px;
-	opacity: 0px;
-
+.banner-color h2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #E3D8C2;
+	font-size: 3rem;
+	font-style: normal;
+	font-weight: 700;
 }
 
-.data-excursiones{
-}
-
-
-/*******************************************SECCION ESCUELA SKI - ro */
 .escuela-ski{
 	display: flex;
 	width: 100%;
-	padding-top: 200px;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
@@ -1833,7 +1855,7 @@ h3{
 .paquete-info-escuela-ski{
 	display: flex;
 	width: 50%;
-	padding: 70px 80px 40px 80px;
+	padding: 00px 80px 40px 80px;
 	justify-content: center;
 	align-items: flex-start;
 	border-radius: 40px;
@@ -1894,35 +1916,37 @@ h3{
 
 
 /*******************************************SECCION VERANO - ro */
+.banner-color-exlusivo-verano{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: auto;
+	padding: 80px 0px 80px 0px;
+	background: #002034;
+}
+
+.banner-color-exlusivo-verano h2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #E3D8C2;
+	font-size: 3rem;
+	font-style: normal;
+	font-weight: 700;
+}
+
 .solo-verano{
 	display: flex;
 	width: 100%;
 	height: auto;
-	padding-top: 200px;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	gap: 80px;
 	border-radius: 40px;
 	background: #FFF;
-}
-
-.banner-color-exlusivo-verano{
-	display: flex;
-	width: 100%;
-	height: auto;
-	padding: 80px 0px 80px 0px;
-	gap: 0px;
-	justify-content: center;
-	align-items: center;
-	background: #002034;
-	color: #E3D8C2;
-	text-align: center;
-	font-family: Montserrat;
-	font-size: 3.125rem;
-	font-style: normal;
-	font-weight: 700;
-	line-height: normal;
 }
 
 .todos-los-article-verano{
@@ -1960,10 +1984,30 @@ h3{
 }
 
 /*******************************************SECCION PASES - ro */
+.banner-color{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: auto;
+	padding: 80px 0px 80px 0px;
+	background: #042A2D;
+}
+
+.banner-color h2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #E3D8C2;
+	font-size: 3rem;
+	font-style: normal;
+	font-weight: 700;
+}
+
 .pases{
 	display: flex;
 	width: 100%;
-	padding-top: 200px;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
@@ -2029,7 +2073,26 @@ align-items: center;
 
 
 /*******************************************SECCION SKI RENTAL - ro */
+.banner-color-ski-rental{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: auto;
+	padding: 80px 0px 80px 0px;
+	background: #02776D;
+}
 
+.banner-color-ski-rental h2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #E3D8C2;
+	font-size: 3rem;
+	font-style: normal;
+	font-weight: 700;
+}
 
 .ski-rental{
 	display: flex;
@@ -2042,25 +2105,6 @@ align-items: center;
 	border-radius: 40px;
 	background: #FFF;
 }
-
-.banner-color-ski-rental{
-	display: flex;
-	width: 100%;
-	height: auto;
-	padding: 80px 0px 80px 0px;
-	gap: 0px;
-	justify-content: center;
-	align-items: center;
-	background: #02776D;
-	color: #E3D8C2;
-	text-align: center;
-	font-family: Montserrat;
-	font-size: 3.125rem;
-	font-style: normal;
-	font-weight: 700;
-	line-height: normal;
-}
-
 
 .foto-lista-de-precios-ski-rental{
 	width: 80%;
