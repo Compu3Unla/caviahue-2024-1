@@ -1400,6 +1400,9 @@ header{
             }
         }
     }
+    .Presentacion-informacion-titulo{
+        font-size: 3.5rem;
+    }
 }
     /*-------------------PAGINA CONTACTO--------------------*/
 .pagina_contactos {
@@ -2160,7 +2163,7 @@ align-items: center;
     display: flex;
 	width: auto;
 	height: 650px;
-	padding-left: 250px;
+	padding-left: 15%;
 	align-items: center;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url("img/informacion/banner-informacion.jpg") lightgray 50% / cover no-repeat;
 	font-family: Montserrat;
