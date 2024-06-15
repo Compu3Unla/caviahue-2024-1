@@ -2316,3 +2316,90 @@ align-items: center;
         padding: 30px;
     }
 }
+
+/*-------------------ALOJAMIENTOS--------------------*/
+
+.body-alojamientos{
+    font-family: Montserrat;
+    margin:0px;
+    padding:0px;
+    .titulo-principal-alojamientos{
+        color: #E3D8C2;
+        text-align: left;
+        font-size: 4.375rem;
+        font-style: normal;
+        font-weight: 700;
+        width:100%;
+        background-color: black;
+    }
+    
+    .titulo_grand_hotel,.titulo_hotel_nevado{
+    background-color:#042A2D;
+    color: #E3D8C2;
+    font-size: 3.125rem;
+    width: 100%;
+    padding: 5rem 0rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    }
+    
+    .texto-hoteles{
+    color: #042A2D;
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 400;
+    display: flex;
+    width: 59rem;
+    height:auto;
+    }
+    
+    .imagen-grand-hotel{
+        width: 30.8125rem;
+        height: 28.625rem;
+        background-color: blue;
+        margin-right: 5rem;
+        margin-left: 12rem;
+    }
+    
+    .imagen-hotel-nevado{
+        width: 30.8125rem;
+        height: 28.625rem;
+        background-color: blue;
+        margin-left: 12rem;
+        margin-right: 5rem;
+        
+    }
+    
+    .flex-grand-hotel{
+        display:flex;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        margin-right: 12rem;
+    
+    }
+    
+    .flex-hotel-nevado{
+        display:flex;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        margin-right: 12rem;
+    }
+    
+    
+    
+    
+    
+    /-------hotel nevado-------/
+    .titulo_hotel_nevado{
+        display: flex;
+        width: 100%;
+        padding: 80px 0px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .reservar{
+        padding-bottom: 200px;
+    }
+}
