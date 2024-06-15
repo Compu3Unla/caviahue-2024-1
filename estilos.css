@@ -195,7 +195,7 @@ header{
             color: #E3D8C2;
             text-align: center;
             font-family: Montserrat;
-            font-size: 3.125rem;
+            font-size: 3rem;
             font-style: normal;
             font-weight: 700;
             line-height: normal;
@@ -2154,3 +2154,162 @@ align-items: center;
 */
 
 
+/*-------------------INFORMACION--------------------*/
+
+.Presentacion-informacion{
+    display: flex;
+	width: auto;
+	height: 650px;
+	padding-left: 250px;
+	align-items: center;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url("img/informacion/banner-informacion.jpg") lightgray 50% / cover no-repeat;
+	font-family: Montserrat;
+    font-size: 4.375rem;
+	color: #E3D8C2;
+	text-align: center;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.conocenos-informacion{
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h3{
+        display: flex;
+        width: 100%;
+        padding: 5rem 0rem;
+        justify-content: center;
+        align-items: center;
+        background: #042A2D;
+        font-size: 3rem;
+        font-style: normal;
+        font-weight: 700;
+    }
+
+    h4{
+        color: #111;
+        text-align: center;
+        font-size: 3.125rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding-top: 70px;
+    }
+
+    p{
+        color: #111;
+        font-size: 1.5625rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-left: 5%;
+        margin-right: 5%;
+        text-align: center;
+        padding-top: 70px;
+    }
+
+    img{
+        width: 70%;
+        border-radius: 20px;
+        padding-top: 70px;
+        padding-bottom: 140px;
+    }
+}
+
+.pistas-informacion{
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h3{
+        display: flex;
+        width: 100%;
+        padding: 5rem 0rem;
+        justify-content: center;
+        align-items: center;
+        background: #02776D;
+        font-size: 3rem;
+        font-style: normal;
+        font-weight: 700;
+    }
+
+    img{
+        width: 70%;
+        padding-top: 70px;
+    }
+
+    p{
+        width: 70%;
+        color: #02776D;
+        text-align: center;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding-top: 70px;
+        padding-bottom: 140px;
+    }
+}
+
+.ubicacion-informacion{
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    h3{
+        display: flex;
+        width: 100%;
+        padding: 5rem 0rem;
+        justify-content: center;
+        align-items: center;
+        background: #042A2D;
+        font-size: 3rem;
+        font-style: normal;
+        font-weight: 700;
+    }
+    .bajada-ubicacion-informacion{
+        width: 70%;
+        padding-top: 70px; 
+    }
+
+    .fondocuadrados{
+        margin-top: 70px;
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        background-color: #042A2D;
+        border-radius: 2.5rem;
+        list-style: none;
+        padding: 30px;
+    }
+    #titulos{
+        color: #E3D8C2;
+        font-size: 3rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    #subtitulos{
+        color: #E3D8C2;
+        font-size: 1.5625rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    #textos{
+        color: #E3D8C2;
+        font-size: 1.5625rem;
+        font-style: normal;
+        line-height: normal; 
+        width: 100%;
+    }
+    li{
+        padding: 30px;
+    }
+}
