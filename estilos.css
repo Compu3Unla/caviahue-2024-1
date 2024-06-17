@@ -31,6 +31,7 @@ header{
             height: 100px;
             border: none;
             border-radius: 10px;
+			cursor: pointer;
 		}
         
         ul{
@@ -1666,56 +1667,6 @@ header{
 	transition: 0.3s;
 }
 
-h4{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	color: #E3D8C2;
-	font-family: Montserrat;
-	font-size: 2rem;
-	font-style: normal;
-	font-weight: 700;
-	line-height: normal;
-}
-
-h6{
-	color: #E3D8C2;
-	text-align: center;
-	font-family: Montserrat;
-	font-size: 0.8rem;
-	font-style: normal;
-	font-weight: 400;
-	line-height: normal;
-}
-
-h5{
-	color: #E3D8C2;
-	text-align: center;
-	font-family: Montserrat;
-	font-size: 1rem;
-	font-style: normal;
-	font-weight: 700;
-	line-height: normal;
-}
-
-h3{
-	color: #E3D8C2;
-	font-family: Montserrat;
-	font-size: 1.5625rem;
-	font-style: normal;
-	font-weight: 400;
-	line-height: normal;
-}
-
-h7{
-	color: #E3D8C2;
-	text-align: center;
-	font-family: Montserrat;
-	font-size: 50px;
-	font-style: normal;
-	font-weight: 700;
-	line-height: normal;
-}
 /************************************************** ::::: PRESENTACION - Ro ::::: **************************************************/
 .presentacion-ro{
 	display: flex;
@@ -1776,6 +1727,16 @@ h7{
 
 .content {
     padding: 20px;
+}
+
+.content h7{
+	color: #E3D8C2;
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 50px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
 }
 
 .card {
@@ -1881,6 +1842,27 @@ h7{
 	
 }
 
+.foto-info-escuela-ski h6{
+	color: #E3D8C2;
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 0.8rem;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.foto-info-escuela-ski h5{
+	color: #E3D8C2;
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 1rem;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+
 .foto-escuela-ski{
 	width: 100%;
 	height: auto;
@@ -1912,6 +1894,18 @@ h7{
 	font-weight: 400;
 	line-height: 1.5rem;
 	list-style-type: none;
+}
+
+.texto-info-escuela-ski h4{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #E3D8C2;
+	font-family: Montserrat;
+	font-size: 2rem;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
 }
 /*******************************************SECCION VERANO - ro */
 .banner-color-exlusivo-verano{
@@ -2035,6 +2029,15 @@ h7{
 	grid-template-rows: auto;
 	grid-column-gap: 10%;
 
+}
+
+.paquete-info-pases, .paquete-info-ski-rental h3{
+	color: #E3D8C2;
+	font-family: Montserrat;
+	font-size: 1.5625rem;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
 }
 
 .data-pases-1 ul{
@@ -2329,89 +2332,502 @@ h7{
     }
 }
 
-/*-------------------ALOJAMIENTOS--------------------*/
 
-.body-alojamientos{
+/*-----------------------------------------------SOFI-----------------------------------------------*/
+/*-----------body---------*/
+
+.body-alojamientos{ 
     font-family: Montserrat;
     margin:0px;
     padding:0px;
-    .titulo-principal-alojamientos{
+}
+    
+.titulo-principal-alojamientos{
+    width:100%;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    gap: 10px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url("img/alojamientos/banner-alojamientos.jpg")lightgray 50% / cover no-repeat;
+    h1{
+        padding-left: 15%;
         color: #E3D8C2;
         text-align: left;
         font-size: 4.375rem;
         font-style: normal;
         font-weight: 700;
-        width:100%;
-        background-color: black;
     }
-    
-    .titulo_grand_hotel,.titulo_hotel_nevado{
-    background-color:#042A2D;
-    color: #E3D8C2;
-    font-size: 3.125rem;
+
+}
+
+@media (max-width: 600px){
+	.titulo-principal-alojamientos{
+		width:100%;
+		margin: 0%;
+		display: flex;
+		height: 100vh;
+		align-items: center;
+		gap: 10px;
+		background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url("img/alojamientos/banner-alojamientos.jpg")lightgray 50% / cover no-repeat;
+		
+		h1{
+			color: #E3D8C2;
+			text-align: center;
+			font-size: 3.5rem;
+			font-style: normal;
+			font-weight: 700;
+		}
+	}
+}
+	
+
+.section-grand-hotel, .section-hotel-nevado{
+    display:flex ;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin:0;
+    gap:5rem;
+    padding-bottom: 5rem;
+    }
+.titulo_grand_hotel,.titulo-hotel-nevado{
+    display: flex;
     width: 100%;
     padding: 5rem 0rem;
     justify-content: center;
     align-items: center;
-    display: flex;
-    }
+    background-color: #042A2D;
+    color: #E3D8C2;
+    font-size: 3rem;
+    margin:0;
+    } 
     
-    .texto-hoteles{
-    color: #042A2D;
-    font-size: 1.75rem;
+.flex-grand-hotel,.flex-hotel-nevado{
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:flex-start;
+    width: 100%;
+    gap: 4.56rem;
+
+        .texto-hoteles{
+            display: flex;
+            flex-direction: column;
+            max-width: 100vh;
+            color:  #042A2D;
+            font-size: 1.5rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            text-align: left;
+            list-style-type: none;
+            gap:1.5rem;
+    
+        }
+        img{
+            width: 30rem;
+            height: 28rem;
+            border-radius: 20px;
+        }
+}
+    
+.reservar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+        button{
+            color: #FFF;
+                font-size: 2rem;
+                font-style: normal;
+                font-weight: 700;
+                background: #02776D;
+                border:#02776D;
+                padding-bottom: 7px;
+                padding-top: 7px;
+                padding-left: 12px;
+                padding-right: 12px;
+            }
+	
+	button a{
+		text-decoration: none;
+		color: #E3D8C2;
+	}
+            
+}
+
+
+
+/*-------responsive-------*/
+@media screen and (max-width: 600px) {
+
+    .flex-grand-hotel, .flex-hotel-nevado {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+
+            img{
+                padding: 2rem;
+                display: flex;
+                align-content: center;
+                align-items: center;
+            }
+        }  
+	.texto-hoteles{
+		padding: 2rem;
+	}
+}
+
+
+/*-------------footer------------*/
+footer{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    background-color: rgb(0, 0, 0);
+    color: #E3D8C2;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+
+}
+
+.footer-contenedor1{
+    padding-top:4rem;
+    padding-bottom: 4rem;
+}
+.logo-footer{
+    height: 3rem;
+    width: 11rem;
+}
+
+.texto-footer{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+gap:10rem;
+    
+    button{
+    display: flex;
+    align-items: center;
+    padding-right: 7.5rem;
+    gap: 0.9375rem;
+    border-radius: 0.625rem;
+    border: transparent;
+    background-color: #E3D8C2;
+        img{
+            width: 3rem;
+            height: 1.5rem;
+        }
+        h5{
+            color: #042A2D;
+            font-family: Montserrat;
+            font-size: 1rem;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+
+}
+
+}
+    
+
+
+
+
+.primer-columna-footer{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+width: 70vh;
+	gap: 2rem;
+    h4{
+        font-size: 1.25rem;
+        font-style: normal;
+        font-weight: 600;
+        padding-top: 10px;
+		gap: 1rem;
+
+    }
+    p{
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+		padding-top: 10px;
+
+    }
+
+}
+
+.suscribite form{
+	margin-top: 2rem;
+}
+
+.suscribite-footer {
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+    padding-left: 40px;
+    border-radius: 0.5rem;
+    background-color: #E3D8C2;
+    color: #02776D;
+    border: none;
+    outline: none;
+}
+
+::placeholder {
+    color: #02776D;
+    font-style: italic;
+    font-weight: 600;
+    }
+
+
+.cuatro-columnas{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+gap:10vh;
+
+
+
+}
+
+
+.informacion-footer, .actividades-footer, .alojamientos-footer, .contacto-footer{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    width: 7.5rem;
+ 
+        h4{
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin:0%
+
+    
+            }
+            h5{
+            font-size: 1rem;
+            font-weight: 400;
+            margin:0%
+        
+            } 
+}
+
+
+.telefonomail-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 0.5px solid#E3D8C2;
+	gap: 2rem;
+}
+.telefono-footer , .mail-footer{
+    display: flex;
+    flex-direction: row;  
+    align-items: baseline;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 400;
-    display: flex;
-    width: 59rem;
-    height:auto;
-    }
+    color: #E3D8C2;
+}
+
+.texto-footer p{
+    padding-right: 10px;
+}
+
+.telefono-blanco, .mail-blanco{
+    width: 1.2rem;
+    height: 1rem;
+    padding-right: 5px;
     
-    .imagen-grand-hotel{
-        width: 30.8125rem;
-        height: 28.625rem;
-        background-color: blue;
-        margin-right: 5rem;
-        margin-left: 12rem;
-    }
-    
-    .imagen-hotel-nevado{
-        width: 30.8125rem;
-        height: 28.625rem;
-        background-color: blue;
-        margin-left: 12rem;
-        margin-right: 5rem;
+}
+
+.redes-footer{
+display: flex;
+flex-direction: row;
+justify-content: center;
+padding-bottom: 30px;
+padding-top: 40px;
+gap:1.875rem;
+}
+
+.sponsors-footer{
+display: flex;
+flex-direction: row;
+justify-content: center;
+background-color: #FFFFFF;
+}
+.imagen-tromen{
+    width: 10.3125rem;
+    height: 3.8125rem; 
+    padding-top: 40px;
+}
+.imagen-pampa{
+    width: 16rem;
+    height: 7rem;
+    padding-top: 17px;
+}
+.imagen-corona{
+    width: 8.75rem;
+    height: 6rem;
+    padding-top: 13px;;
+}
+@media (max-width: 600px) {
+    footer {
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
         
     }
-    
-    .flex-grand-hotel{
-        display:flex;
-        padding-top: 5rem;
-        padding-bottom: 5rem;
-        margin-right: 12rem;
-    
-    }
-    
-    .flex-hotel-nevado{
-        display:flex;
-        padding-top: 5rem;
-        padding-bottom: 5rem;
-        margin-right: 12rem;
-    }
-    
-    
-    
-    
-    
-    /-------hotel nevado-------/
-    .titulo_hotel_nevado{
+
+    .texto-footer {
         display: flex;
+        flex-direction: column;
+		gap:1rem;
+        
+    }
+	
+	.footer-contenedor1{
+		padding: 3rem;
+    
+    }
+    .primer-columna-footer h4 {
+        font-size: 1.5rem;
+    }
+
+    .primer-columna-footer p {
+        font-size: 0.875rem;
+    }
+
+    .cuatro-columnas {
+        display: flex;
+        flex-direction: column;
+        color:#02776D;
+		padding-top: 5rem;
+        gap: 2rem;
+
+    }
+
+
+    .informacion-footer h4, .actividades-footer h4, .alojamientos-footer h4, .contacto-footer h4 {
+        font-size: 1rem;
+    }
+
+    .informacion-footer h5, .actividades-footer h5, .alojamientos-footer h5, .contacto-footer h5 {
+        display: none;
+    }
+
+    .primer-columna-footer div:nth-child(3) {
+        order: 2;
+    }
+
+    .cuatro-columnas div {
+        order: 1;
+    }
+
+    .telefonomail-footer {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        padding-top: 2rem;
+        
+    }
+    .telefono-footer , .mail-footer{
+        display: flex;
+        flex-direction: row;
+        
+    }
+
+    .telefonomail-footer p {
+        font-size: 0.875rem;
+    }
+
+    .redes-footer, .sponsors-footer {
+        flex-direction: row;
+    }
+
+    .redes-footer img, .sponsors-footer img {
+        margin: 0.5rem 0;
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+.redes{
+    width: 3.8rem;
+    height: 3.8rem;
+}
+
+/*----------------------ANIMACION FOOTER SPONSORS------------------------ */
+
+
+.contenedor_carrusel_sponsors {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+	background-color: #FFF;
+}
+
+.carrusel_sponsors {
+    display: flex; 
+    animation: scroll 40s linear infinite; 
+    gap: 15rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.sponsor {
+    width: 8rem; 
+    height: auto;
+    flex-shrink: 0; 
+    margin-right: 10px;
+}
+
+/* Animación del carrusel */
+@keyframes scroll {
+    0% {
+        transform: translateX(0); /* Inicio de la animación */
+    }
+    100% {
+        transform: translateX(-100%); /* Fin de la animación */
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    
+    .contenedor_carrusel_sponsors {
         width: 100%;
-        padding: 80px 0px;
+        overflow: hidden;
+        position: relative;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    
+    .carrusel_sponsors {
+        display: flex; 
+        animation: scroll 30s linear infinite; 
+        gap: 5rem;
         justify-content: center;
         align-items: center;
     }
     
-    .reservar{
-        padding-bottom: 200px;
+    .sponsor {
+        width: 5rem; 
+        height: auto;
+        flex-shrink: 0; 
+        margin-right: 10px;
     }
 }
