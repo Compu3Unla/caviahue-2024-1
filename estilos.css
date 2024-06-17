@@ -1672,7 +1672,7 @@ h4{
 	align-items: center;
 	color: #E3D8C2;
 	font-family: Montserrat;
-	font-size: 3.125rem;
+	font-size: 2rem;
 	font-style: normal;
 	font-weight: 700;
 	line-height: normal;
@@ -1682,7 +1682,7 @@ h6{
 	color: #E3D8C2;
 	text-align: center;
 	font-family: Montserrat;
-	font-size: 20px;
+	font-size: 0.8rem;
 	font-style: normal;
 	font-weight: 400;
 	line-height: normal;
@@ -1692,7 +1692,7 @@ h5{
 	color: #E3D8C2;
 	text-align: center;
 	font-family: Montserrat;
-	font-size: 30px;
+	font-size: 1rem;
 	font-style: normal;
 	font-weight: 700;
 	line-height: normal;
@@ -1857,11 +1857,12 @@ h7{
 .paquete-info-escuela-ski{
 	display: flex;
 	width: 50%;
-	padding: 00px 80px 40px 80px;
+	padding: 2% 5% 2% 5%;
 	justify-content: center;
 	align-items: flex-start;
 	border-radius: 40px;
 	background: #042A2D;
+	gap: 5%
 }
 
 .foto-info-escuela-ski{
@@ -1881,7 +1882,7 @@ h7{
 }
 
 .foto-escuela-ski{
-	width: auto;
+	width: 100%;
 	height: auto;
 	border-radius: 30px;
 }
@@ -1890,33 +1891,28 @@ h7{
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	gap: 40px;
-	
+	gap: 7px;
+}
+
+.texto-info-escuela-ski ul{
+	color: #E3D8C2;
+	font-family: Montserrat;
+	font-size: 1rem;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.5rem;
+	list-style-type: none;
 }
 
 .texto-info-escuela-ski p{
-	width: inherit;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	gap: 10px;
-	color: #E3D8C2;
-	leading-trim: both;
-	text-edge: cap;
-	font-family: Montserrat;
-	font-size: 1.5625rem;
-	font-style: normal;
-	font-weight: 700;
-	line-height: normal;
 	color: #E3D8C2;
 	font-family: Montserrat;
-	font-size: 1.5625rem;
+	font-size: 1rem;
 	font-style: normal;
 	font-weight: 400;
-	line-height: normal;
+	line-height: 1.5rem;
+	list-style-type: none;
 }
-
-
 /*******************************************SECCION VERANO - ro */
 .banner-color-exlusivo-verano{
 	display: flex;
@@ -1959,6 +1955,8 @@ h7{
 	gap: 40px;
 	flex-shrink: 0;
 	flex-wrap: wrap;
+	padding-top: 10%;
+	padding-bottom: 10%;
 }
 
 .paquete-info-verano{ /*article*/
@@ -1984,7 +1982,6 @@ h7{
 	justify-content: center;
 	align-items: center;
 }
-
 /*******************************************SECCION PASES - ro */
 .banner-color{
 	display: flex;
@@ -2027,53 +2024,56 @@ h7{
 }
 
 .paquete-info-pases{
-	display: flex;
-	width: 62%;
-	padding: 40px 122px;
-	justify-content: center;
-	align-items: center;
-	gap: 80px;
-	border-radius: 20px;
-	background: #042A2D;
-	
-}
-
-.data-pases-1{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	gap: 10px;	
-}
-
-.lista-no-punteada-pases{
+	background-color: #012B2F;
+    border-radius: 15px;
+    width: 70%;
+    max-width: 1200px;
+    color: #E3D8C2;
+	padding: 2% 5% 2% 5%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: auto;
+	grid-column-gap: 10%;
 
 }
 
-.data-pases-2{
-	display: flex;
-justify-content: center;
-align-items: center;
-gap: 10px;
-	
+.data-pases-1 ul{
+	color: #E3D8C2;
+	font-family: Montserrat;
+	font-size: 1rem;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.5rem;
+	list-style-type: none;
 }
 
-.lista-punteada-pases{
-
+.data-pases-2 ul{
+	color: #E3D8C2;
+	font-family: Montserrat;
+	font-size: 1rem;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.5rem;
+	list-style-type: disc;
 }
 
-.data-pases-3{
-	display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-	
+.data-pases-3 p{
+	color: #E3D8C2;
+	font-family: Montserrat;
+	font-size: 1rem;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.5rem;
+	list-style-type: none;
 }
+
 .redes-sociales-pases{
-	
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: auto;
+	grid-column-gap: 5%;
+	margin-top: 5%;
 }
-
-
-
 /*******************************************SECCION SKI RENTAL - ro */
 .banner-color-ski-rental{
 	display: flex;
@@ -2084,6 +2084,7 @@ align-items: center;
 	height: auto;
 	padding: 80px 0px 80px 0px;
 	background: #02776D;
+	margin-top: 10%;
 }
 
 .banner-color-ski-rental h2{
@@ -2099,109 +2100,73 @@ align-items: center;
 .ski-rental{
 	display: flex;
 	width: 100%;
-	padding: 200px 0px 300px 0px;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	gap: 80px;
-	border-radius: 40px;
-	background: #FFF;
 }
 
 .foto-lista-de-precios-ski-rental{
-	width: 80%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	gap: 10px;
+	width: 80%;
+	height: auto;
 }
-
 
 .paquete-info-ski-rental{
-	display: flex;
-	padding: 40px 122px;
-	justify-content: center;
-	align-items: center;
-	gap: 80px;
-	border-radius: 20px;
-	background: #02776D;
-
+	background-color: #02776D;
+    border-radius: 15px;
+    width: 70%;
+    max-width: 1200px;
+    color: #E3D8C2;
+	padding: 2% 5% 2% 5%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: auto;
+	grid-column-gap: 10%;
+	margin-bottom: 10%;
 }
 
-/*
-.escuela-ski{
-	display: flex;
-	width: 100%;
-	padding-top: 200px;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	gap: 80px;
-}
-
-.todos-los-article-escuela-ski{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	gap: 80px;
-	box-sizing: border-box;
-}
-
-
-.paquete-info-escuela-ski{
-	display: flex;
-	width: 50%;
-	height: auto;
-	padding: 70px 80px 40px 80px;
-	justify-content: center;
-	align-items: flex-start;
-	border-radius: 40px;
-	background: #042A2D;
-}
-
-.foto-info-escuela-ski{
-	padding: 0px 40px;
-	display: flex;
-	flex-direction: column;
-	align-items: center; 
-}
-
-.foto-escuela-ski{
-	width: 100%;
-	height: auto;
-	border-radius: 30px;
-}
-
-
-
-
-
-
-
-.texto-info-escuela-ski p{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	gap: 0.625rem;
-	width: 64.0625rem;
+.data-ski-1 ul{
 	color: #E3D8C2;
 	font-family: Montserrat;
-	font-size: 1.5625rem;
-	font-style: normal;
-	font-weight: 700;
-	line-height: normal;
-	color: #E3D8C2;
-	leading-trim: both;
-	text-edge: cap;
-	font-family: Montserrat;
-	font-size: 1.5625rem;
+	font-size: 1rem;
 	font-style: normal;
 	font-weight: 400;
-	line-height: normal;
+	line-height: 1.5rem;
+	list-style-type: none;
 }
-*/
+
+.data-ski-2 ul{
+	color: #E3D8C2;
+	font-family: Montserrat;
+	font-size: 1rem;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.5rem;
+	list-style-type: disc;
+}
+
+.data-ski-3 p{
+	color: #E3D8C2;
+	font-family: Montserrat;
+	font-size: 1rem;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.5rem;
+	list-style-type: none;
+}
+
+.redes-sociales-pases{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: auto;
+	grid-column-gap: 5%;
+	margin-top: 5%;
+}
 
 
 /*-------------------INFORMACION--------------------*/
