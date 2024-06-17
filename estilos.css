@@ -1418,6 +1418,7 @@ header{
     }
     .Presentacion-informacion-titulo{
         font-size: 3.5rem;
+		color: #E3D8C2;
     }
 }
     /*-------------------PAGINA CONTACTO--------------------*/
@@ -1669,6 +1670,11 @@ header{
 	line-height: normal;
 	margin-bottom: 60px;
 	transition: 0.3s;
+}
+
+.reservar-btn:hover {
+	background-color: #E3D8C2;
+	color: rgb(4, 42, 45);
 }
 
 /************************************************** ::::: PRESENTACION - Ro ::::: **************************************************/
@@ -1968,6 +1974,26 @@ header{
 	background: #002034;
 }
 
+.paquete-info-verano h5{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #E3D8C2;
+	font-size: 1.5rem;
+	font-style: normal;
+	font-weight: 700;
+}
+
+.paquete-info-verano h6{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #E3D8C2;
+	font-size: 1rem;
+	font-style: normal;
+	font-weight: 400;
+}
+
 .foto-verano{ /*lo de adentro*/
 	width: 26.5625rem;
 	height: 22.1875rem;
@@ -2032,13 +2058,12 @@ header{
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: auto;
 	grid-column-gap: 10%;
-
 }
 
 .paquete-info-pases, .paquete-info-ski-rental h3{
 	color: #E3D8C2;
 	font-family: Montserrat;
-	font-size: 1.5625rem;
+	font-size: 1rem;
 	font-style: normal;
 	font-weight: 400;
 	line-height: normal;
@@ -2194,6 +2219,7 @@ header{
 	line-height: normal;
 }
 
+
 .conocenos-informacion{
     display:flex ;
     flex-direction: column;
@@ -2205,6 +2231,7 @@ header{
         width: 100%;
         padding: 5rem 0rem;
         justify-content: center;
+		color: #E3D8C2;
         align-items: center;
         background: #042A2D;
         font-size: 3rem;
@@ -2252,6 +2279,7 @@ header{
         display: flex;
         width: 100%;
         padding: 5rem 0rem;
+		color: #E3D8C2;
         justify-content: center;
         align-items: center;
         background: #02776D;
@@ -2283,12 +2311,14 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+	padding-bottom: 140px;
     
     h3{
         display: flex;
         width: 100%;
         padding: 5rem 0rem;
         justify-content: center;
+		color: #E3D8C2;
         align-items: center;
         background: #042A2D;
         font-size: 3rem;
@@ -2580,18 +2610,11 @@ width: 70vh;
     padding-right: 5px;
     padding-left: 40px;
     border-radius: 0.5rem;
-    background-color: #E3D8C2;
-    color: #02776D;
+    background-color: #02776D;
+    color: #E3D8C2;
     border: none;
     outline: none;
 }
-
-::placeholder {
-    color: #02776D;
-    font-style: italic;
-    font-weight: 600;
-    }
-
 
 .cuatro-columnas{
 display: flex;

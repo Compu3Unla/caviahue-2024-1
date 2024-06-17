@@ -6,6 +6,7 @@
         <link href="estilos.css" rel="stylesheet" type="text/css">
     </head>
 <body>
+<!----------------------------------------------- ::: HEADER ::: ----------------------------------------------->
 	<header>
 		<nav>
 			<a href="index.html"><button class="logo"></button></a>
@@ -47,158 +48,163 @@
 		</nav>
 		<div class="capaheader"></div>
 	</header>
-
-        <main>
-            <section class="pagina_contactos">
-                <h1>Contactos</h1>
-            </section>
-            <!-------------------RESERVAS------------------------>
-                <section class="section_reservas">
-                    <div class="titulo_reservas">
-                        <h2>Reservas</h2>
-                    </div>
-                    <div class="subtitulo_reservas">
-                        <p>Por favor contactanos por mail o teleono para que te respondamos consultas sobre el centro de esquí.</p>
-                        <p>¡Te esperamos!</p>
-                    </div>
-                        <form class="formulario_reservas" method="post" action="" target="_blank" enctype="text/plain">
-                            <section class="contenedor_formulario">
-                                <div class="columna_completar">
-                                    <input class="estilo_input" type="text" name="Nombre" id="Nombre" maxlength="30" placeholder="Nombre y Apellido*" required>
-                                    <input class="estilo_input" type="email" name="Email" id="Email" placeholder="Email*" required>
-                                    <input class="estilo_input" type="tel" name="Telefono" id="Telefono" placeholder="Telefono*" required>
-                                </div>
-                                <div class="">
-                                    <textarea class="columna_escribinos" name="escribinos" id="escribinos" placeholder="Escribinos para reservar*" required></textarea>
-                                </div>
-                            </section>
-                            <div class="enviar_mensaje">
-                                <input class="boton_enviar_formulariosweb" type="submit" name="Enviar" id="Enviar" placeholder="Enviar">
-                            </div>
-                        </form>
-                    <section>
-                        <div class="formulario_subscribite">
-                            <p class="texto_subscribite">Subscribite para más</p>
-                            <p class="texto_unite">Unite a nuestra comunidad para recibir novedades y promociones</p>
-                        <div>
-                            <input class="ingresa_email"  type="email" name="Email" id="Email" placeholder="Email*" required>
-                        </div>
-                    </section>
-                </section>
-            <!------------------- FIN RESERVAS------------------------>
-            <!-------------------SUMATE AL EQUIPO------------------------>
-                <section class="section_sumatealequipo">
-                    <div class="titulo_reservas">
-                        <h2>Sumate al equipo</h2>
-                    </div>
-                    <div class="subtitulo_reservas">
-                        <p class="completatusdatos">Completá tus datos y envianos tu CV</p>
-                        <p>Si queres sumarte al equipo con nosotros envianos tu CV para tenerte en cuenta la proxima temporada</p>
-                    </div>
-                        <form class="formulario_reservas" method="post" action="" target="_blank" enctype="multipart/form-data">
-                            <section class="contenedor_formulario">
-                                <div class="columna_completar">
-                                    <input class="estilo_input" type="text" name="Nombre" id="Nombre" maxlength="30" placeholder="Nombre*" required>
-                                    <input class="estilo_input" type="text" name="Apellido" id="Apellido" maxlength="30" placeholder="Apellido*" required>
-                                    <input class="estilo_input" type="email" name="Email" id="Email" placeholder="Email*" required>
-                                    <input class="estilo_input" type="tel" name="Telefono" id="Telefono" placeholder="Telefono*" required>
-                                    <input class="estilo_input" type="text" name="Disponibilidad" id="Disponibilidad" maxlength="30" placeholder="Disponibilidad*" required>
-                                </div>
-                                <div class="columna_subircv">
-                                    <input type="file" class="subircv" name="escribinos" id="escribinos" placeholder="Escribinos para reservar*" required></textarea>
-                                    <input class="estilo_input_largo" type="text" name="Puesto" id="Puesto" maxlength="30" placeholder="Puesto*" required>
-                                </div>
-                            </section>
-                            <div class="enviar_mensaje">
-                                <input class="boton_enviar_formulariosweb" type="submit" name="Enviar" id="Enviar" placeholder="Enviar" formenctype="multipart/form-data">
-                            </div>
-                        </form>
-                </section>
-            <!-------------------FIN SUMATE AL EQUIPO------------------------>
-            <!-------------------SPONSORS------------------------>
-                <section class="section_reservas">
-                    <div class="titulo_reservas">
-                        <h2>Contacto Partners y Sponsors</h2>
-                    </div>
-                    <div class="subtitulo_reservas">
-                        <p>Por favor contactanos por mail o teleono para que te respondamos consultas sobre el centro de esquí.</p>
-                        <p>¡Te esperamos!</p>
-                    </div>
-                        <form class="formulario_reservas" method="post" action="" target="_blank" enctype="text/plain">
-                            <section class="contenedor_formulario">
-                                <div class="columna_completar">
-                                    <input class="estilo_input" type="text" name="Nombre" id="Nombre" maxlength="30" placeholder="Nombre y Apellido*" required>
-                                    <input class="estilo_input" type="email" name="Email" id="Email" placeholder="Email*" required>
-                                    <input class="estilo_input" type="tel" name="Telefono" id="Telefono" placeholder="Telefono*" required>
-                                </div>
-                                <div class="">
-                                    <textarea class="columna_escribinos" name="escribinos" id="escribinos" placeholder="Escribinos para reservar*" required></textarea>
-                                </div>
-                            </section>
-                            <div class="enviar_mensaje">
-                                <input class="boton_enviar_formulariosweb" type="submit" name="Enviar" id="Enviar" placeholder="Enviar">
-                            </div>
-                        </form>
-                </section>
-            <!-------------------FIN SPONSORS------------------------>
-            <!-------------------NUESTROS CONTACTOS------------------------>
-            <section class="section_reservas">
-                <div class="titulo_reservas">
-                    <h2>Nuestros contactos</h2>
-                </div>
-                <section class="columnas_contactos">
-                    <ul class="contactolista">
-                        <li> 
-                            <img src="img/contacto/logotelefono.svg" width="30px" height="30px" alt="iconotelefono"> <a target="_blank">(02942) 405960 / +54 (02948) 495064</a>
-                        </li>
-                        <li> 
-                            <img src="img/contacto/logomail.svg" width="30px" height="30px" alt="iconomail"> <a href="https://mailto:ventas@caviahue.com" target="_blank">ventas@caviahue.com</a>
-                        </li>
-                        <li> 
-                            <img src="img/contacto/logoinstagram.svg" width="30px" height="30px" alt="iconoig"> <a href="https://www.instagram.com/caviahueskiresort/" target="_blank">caviahueskiresort</a>
-                        </li>
-                        <li> 
-                            <img src="img/contacto/logoubicacion.svg" width="30px" height="30px" alt="iconoubicacion"> <a href="https://www.google.com/maps/dir//Caviahue+Ski+Resort,+Los+%C3%91ires+383,+Q8349+Caviahue,+Neuqu%C3%A9n/@-37.8627134,-71.1582085,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x966d0417c484acd1:0xdfdb429a064beac7!2m2!1d-71.0758075!2d-37.8627421?hl=es-419&entry=ttu" target="_blank">Base del Cerro / Caviahue - Neuquén - Argentina</a>
-                        </li>
-                    </ul>
-                    <div>
-                        <p class="titulocomollegar">¿Comó llegar?</p>
-                        <p class="textocomollegar">Para llegar a Caviahue desde la capital de Neuquén se deben recorrer 352 kms., y 1570 kilómetros desde la ciudad de Buenos Aires, por las rutas pavimentadas nacional 22 y provinciales 21. El último tramo corresponde a la Ruta Prov. 26 y después de 52 kms. se arriba a Caviahue, puerta de entrada al Parque Provincial Copahue - Caviahue, pasando por uno de los lugares más espectaculares de la provincia tal como Riscos Bayos y el Cajón del Hualcupén.</p>
-                    </div>
-                </section>
-            </section>
-            <!-------------------FIN NUESTROS CONTACTOS------------------------>
-
-
-        </main>
+<!----------------------------------------------- ::: MAIN ::: ----------------------------------------------->
+	<main>
+		<section class="pagina_contactos">
+			<h1>Contactos</h1>
+		</section>
+        <!-------------------RESERVAS------------------------>
+		<section class="section_reservas">
+			<div class="titulo_reservas">
+				<h2>Reservas</h2>
+			</div>
+			<div class="subtitulo_reservas">
+				<p>Por favor contactanos por mail o teleono para que te respondamos consultas sobre el centro de esquí.</p>
+				<p>¡Te esperamos!</p>
+			</div>
+			<form class="formulario_reservas" method="post" action="" target="_blank" enctype="text/plain">
+				<section class="contenedor_formulario">
+					<div class="columna_completar">
+						<input class="estilo_input" type="text" name="Nombre" id="Nombre" maxlength="30" placeholder="Nombre y Apellido*" required>
+						<input class="estilo_input" type="email" name="Email" id="Email" placeholder="Email*" required>
+						<input class="estilo_input" type="tel" name="Telefono" id="Telefono" placeholder="Telefono*" required>
+					</div>
+					<div class="">
+						<textarea class="columna_escribinos" name="escribinos" id="escribinos" placeholder="Escribinos para reservar*" required></textarea>
+					</div>
+				</section>
+				<div class="enviar_mensaje">
+					<input class="boton_enviar_formulariosweb" type="submit" name="Enviar" id="Enviar" placeholder="Enviar">
+				</div>
+			</form>
+			<section>
+				<div class="formulario_subscribite">
+					<p class="texto_subscribite">Subscribite para más</p>
+					<p class="texto_unite">Unite a nuestra comunidad para recibir novedades y promociones</p>
+				</div>
+				<div>
+					<input class="ingresa_email"  type="email" name="Email" id="Email" placeholder="Email*" required>
+				</div>
+			</section>
+		</section>
+        <!------------------- FIN RESERVAS------------------------>
+        <!-------------------SUMATE AL EQUIPO------------------------>
+		<section class="section_sumatealequipo">
+			<div class="titulo_reservas">
+				<h2>Sumate al equipo</h2>
+			</div>
+			<div class="subtitulo_reservas">
+				<p class="completatusdatos">Completá tus datos y envianos tu CV</p>
+				<p>Si queres sumarte al equipo con nosotros envianos tu CV para tenerte en cuenta la proxima temporada</p>
+			</div>
+			<form class="formulario_reservas" method="post" action="" target="_blank" enctype="multipart/form-data">
+				<section class="contenedor_formulario">
+					<div class="columna_completar">
+						<input class="estilo_input" type="text" name="Nombre" id="Nombre" maxlength="30" placeholder="Nombre*" required>
+						<input class="estilo_input" type="text" name="Apellido" id="Apellido" maxlength="30" placeholder="Apellido*" required>
+						<input class="estilo_input" type="email" name="Email" id="Email" placeholder="Email*" required>
+						<input class="estilo_input" type="tel" name="Telefono" id="Telefono" placeholder="Telefono*" required>
+						<input class="estilo_input" type="text" name="Disponibilidad" id="Disponibilidad" maxlength="30" placeholder="Disponibilidad*" required>
+					</div>
+					<div class="columna_subircv">
+						<input type="file" class="subircv" name="escribinos" id="escribinos" placeholder="Escribinos para reservar*" required></textarea>
+					<input class="estilo_input_largo" type="text" name="Puesto" id="Puesto" maxlength="30" placeholder="Puesto*" required>
+					</div>
+				</section>
+			<div class="enviar_mensaje">
+				<input class="boton_enviar_formulariosweb" type="submit" name="Enviar" id="Enviar" placeholder="Enviar" formenctype="multipart/form-data">
+			</div>
+			</form>
+		</section>
+		<!-------------------FIN SUMATE AL EQUIPO------------------------>
+		<!-------------------SPONSORS------------------------>
+	<section class="section_reservas">
+		<div class="titulo_reservas">
+			<h2>Contacto Partners y Sponsors</h2>
+		</div>
+		<div class="subtitulo_reservas">
+			<p>Por favor contactanos por mail o teleono para que te respondamos consultas sobre el centro de esquí.</p>
+			<p>¡Te esperamos!</p>
+		</div>
+		<form class="formulario_reservas" method="post" action="" target="_blank" enctype="text/plain">
+			<section class="contenedor_formulario">
+				<div class="columna_completar">
+					<input class="estilo_input" type="text" name="Nombre" id="Nombre" maxlength="30" placeholder="Nombre y Apellido*" required>
+					<input class="estilo_input" type="email" name="Email" id="Email" placeholder="Email*" required>
+					<input class="estilo_input" type="tel" name="Telefono" id="Telefono" placeholder="Telefono*" required>
+				</div>
+				<div class="">
+					<textarea class="columna_escribinos" name="escribinos" id="escribinos" placeholder="Escribinos para reservar*" required></textarea>
+				</div>
+			</section>
+			<div class="enviar_mensaje">
+				<input class="boton_enviar_formulariosweb" type="submit" name="Enviar" id="Enviar" placeholder="Enviar">
+			</div>
+		</form>
+	</section>
+        <!-------------------FIN SPONSORS------------------------>
+        <!-------------------NUESTROS CONTACTOS------------------------>
+	<section class="section_reservas">
+		<div class="titulo_reservas">
+			<h2>Nuestros contactos</h2>
+		</div>
+		<section class="columnas_contactos">
+			<ul class="contactolista">
+				<li> 
+					<img src="img/contacto/logotelefono.svg" width="30px" height="30px" alt="iconotelefono">
+					<a target="_blank">(02942) 405960 / +54 (02948) 495064</a>
+				</li>
+				<li> 
+					<img src="img/contacto/logomail.svg" width="30px" height="30px" alt="iconomail">
+					<a href="https://mailto:ventas@caviahue.com" target="_blank">ventas@caviahue.com</a>
+				</li>
+				<li> 
+					<img src="img/contacto/logoinstagram.svg" width="30px" height="30px" alt="iconoig">
+					<a href="https://www.instagram.com/caviahueskiresort/" target="_blank">caviahueskiresort</a>
+				</li>
+				<li> 
+					<img src="img/contacto/logoubicacion.svg" width="30px" height="30px" alt="iconoubicacion">
+					<a href="https://www.google.com/maps/dir//Caviahue+Ski+Resort,+Los+%C3%91ires+383,+Q8349+Caviahue,+Neuqu%C3%A9n/@-37.8627134,-71.1582085,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x966d0417c484acd1:0xdfdb429a064beac7!2m2!1d-71.0758075!2d-37.8627421?hl=es-419&entry=ttu" target="_blank">Base del Cerro / Caviahue - Neuquén - Argentina</a>
+				</li>
+			</ul>
+			<div>
+				<p class="titulocomollegar">¿Comó llegar?</p>
+				<p class="textocomollegar">Para llegar a Caviahue desde la capital de Neuquén se deben recorrer 352 kms., y 1570 kilómetros desde la ciudad de Buenos Aires, por las rutas pavimentadas nacional 22 y provinciales 21. El último tramo corresponde a la Ruta Prov. 26 y después de 52 kms. se arriba a Caviahue, puerta de entrada al Parque Provincial Copahue - Caviahue, pasando por uno de los lugares más espectaculares de la provincia tal como Riscos Bayos y el Cajón del Hualcupén.</p>
+			</div>
+		</section>
+	</section>
+        <!-------------------FIN NUESTROS CONTACTOS------------------------>
+	</main>
+<!----------------------------------------------- ::: FOOTER ::: ----------------------------------------------->
 	<footer>
-        <div class="footer-contenedor1">
-            <div class="texto-footer">
-                <div  class="primer-columna-footer">
-                    <div>
-                        <img src="img/footer/logo-aplicacion-1-blanco-01.svg" alt="Logo" width="550px" height="100px" class="logo-footer"/>
+		<div class="footer-contenedor1">
+			<div class="texto-footer">
+				<div  class="primer-columna-footer">
+					<div>
+						<img src="img/footer/logo-aplicacion-1-blanco-01.svg" alt="Logo" width="550px" height="100px" class="logo-footer"/>
                     </div>
                     <div>
-                        <h4>Sobre nosotros</h4>
-                        <p>Caviahue Ski Resort es mucho más que un destino invernal. Situado en la majestuosa región de la Patagonia Argentina, este paraíso natural ofrece una variedad de actividades emocionantes durante todo el año.</p>
+						<h4>Sobre nosotros</h4>
+						<p>Caviahue Ski Resort es mucho más que un destino invernal. Situado en la majestuosa región de la Patagonia Argentina, este paraíso natural ofrece una variedad de actividades emocionantes durante todo el año.</p>
                     </div>
-                    <div class="suscribite">
+					<div class="suscribite">
                         <h4>Suscríbete para más</h4>
                         <p>Únete a nuestra comunidad para recibir novedades y promociones</p>
-                            <form>
-                                <input class="suscribite-footer" src="img/svg/correo-verde-01.svg"alt="correo" width="220px" height="156px" type="email" name="Ingresa tu e-mail" id="Email" placeholder="Ingresa tu e-mail" required>
-                            </form>
-                        </div>
-                </div>
-                <div class="cuatro-columnas">
-                    <div class="informacion-footer">
-                        <h4>Información</h4>
-                        <h5>Conocenos</h5>
+						<form>
+							<input class="suscribite-footer" src="img/svg/correo-verde-01.svg"alt="correo" width="220px" height="156px" type="email" name="Ingresa tu e-mail" id="Email" placeholder="Ingresa tu e-mail" required>
+							
+						</form>
+					</div>
+				</div>
+				<div class="cuatro-columnas">
+					<div class="informacion-footer">
+						<h4>Información</h4>
+						<h5>Conocenos</h5>
                         <h5>Pistas</h5>
-                        <h5>Ubicación</h5>
-                    </div>
-                    <div class="actividades-footer">
-                        <h4>Actividades</h4>
+						<h5>Ubicación</h5>
+					</div>
+					<div class="actividades-footer">
+						<h4>Actividades</h4>
                         <h5>Excursiones</h5>
                         <h5>Ski Rental</h5>
                         <h5>Pase</h5>
@@ -214,91 +220,88 @@
                         <h5>Sponsors</h5>
                         <h5>Escribinos</h5>
                         <h5>Trabajá con nosotros</h5>
-                    </div>
-                </div>
-            </div>  
-        </div>
-            <div class="telefonomail-footer">
-                <div class="telefono-footer">
-                    <img src="img/footer/telefono-blanco-01.svg" alt="teléfono" width="243px" height="230px" class="telefono-blanco"/>
-                    <p>(02942) 405960 / +54 (02948) 495064</p>
-                </div>
-                <div class="mail-footer">
-                    <img src="img/footer/correo-blanco-01.svg" alt="mail" width="243px" height="160px" class="mail-blanco"/>
-                    <p>ventas@caviahue.com</p>
-                </div>
-            </div>
-            <div class="redes-footer">
-                <div>
-                    <a href="tel:+5402948495064">
-                    <img src="img/actividades/telefono.png" alt="teléfono" width="67px" height="66px" class="redes"/>
-                    </a>
-                </div>
-                <div>
-                    <a href="mailto:ventas@caviahue.com">
-                    <img src="img/actividades/mail.png" alt="mail" width="66px" height="66px" class="redes">
-                    </a>
-                </div>
-                <div>
-                    <a href="https://www.google.com/maps/search/?api=1&query=Caviahue+Ski+Resort">
-                    <img src="img/footer/logoubicacion-footer.svg" alt="ubicación" width="40px" height="40px" class="redes">
-                    </a>
-                </div>
-                <div>
-                    <a href="https://www.instagram.com/caviahueskiresort">
-                    <img src="img/actividades/ig.png" alt="instagram" width="67px" height="66px" class="redes">
-                    </a>
-                </div>
-            </div>
-		<div class="contenedor_carrusel_sponsors">
-                <div class="carrusel_sponsors">
-                    <img src="img/footer/sponsor1.png" alt="Imagen 1" class="sponsor">
-                    <img src="img/footer/sponsor2.png" alt="Imagen 2" class="sponsor">
-                    <img src="img/footer/sponsor3.png" alt="Imagen 3" class="sponsor">
-                    <img src="img/footer/sponsor4.png" alt="Imagen 4" class="sponsor">
-                    <img src="img/footer/sponsor5.png" alt="Imagen 5" class="sponsor">
-                    <img src="img/footer/sponsor6.png" alt="Imagen 6" class="sponsor">
-                    <!----------------------------------------->
-                    <img src="img/footer/sponsor1.png" alt="Imagen 1" class="sponsor">
-                    <img src="img/footer/sponsor2.png" alt="Imagen 2" class="sponsor">
-                    <img src="img/footer/sponsor3.png" alt="Imagen 3" class="sponsor">
-                    <img src="img/footer/sponsor4.png" alt="Imagen 4" class="sponsor">
-                    <img src="img/footer/sponsor5.png" alt="Imagen 5" class="sponsor">
-                    <img src="img/footer/sponsor6.png" alt="Imagen 6" class="sponsor">
-                    <!----------------------------------------->
-                    <img src="img/footer/sponsor1.png" alt="Imagen 1" class="sponsor">
-                    <img src="img/footer/sponsor2.png" alt="Imagen 2" class="sponsor">
-                    <img src="img/footer/sponsor3.png" alt="Imagen 3" class="sponsor">
-                    <img src="img/footer/sponsor4.png" alt="Imagen 4" class="sponsor">
-                    <img src="img/footer/sponsor5.png" alt="Imagen 5" class="sponsor">
-                    <img src="img/footer/sponsor6.png" alt="Imagen 6" class="sponsor">
-                    <!----------------------------------------->
-                    <img src="img/footer/sponsor1.png" alt="Imagen 1" class="sponsor">
-                    <img src="img/footer/sponsor2.png" alt="Imagen 2" class="sponsor">
-                    <img src="img/footer/sponsor3.png" alt="Imagen 3" class="sponsor">
-                    <img src="img/footer/sponsor4.png" alt="Imagen 4" class="sponsor">
-                    <img src="img/footer/sponsor5.png" alt="Imagen 5" class="sponsor">
-                    <img src="img/footer/sponsor6.png" alt="Imagen 6" class="sponsor">
-                    <!----------------------------------------->
-                    <img src="img/footer/sponsor1.png" alt="Imagen 1" class="sponsor">
-                    <img src="img/footer/sponsor2.png" alt="Imagen 2" class="sponsor">
-                    <img src="img/footer/sponsor3.png" alt="Imagen 3" class="sponsor">
-                    <img src="img/footer/sponsor4.png" alt="Imagen 4" class="sponsor">
-                    <img src="img/footer/sponsor5.png" alt="Imagen 5" class="sponsor">
-                    <img src="img/footer/sponsor6.png" alt="Imagen 6" class="sponsor">
-                    <!----------------------------------------->
-                    <img src="img/footer/sponsor1.png" alt="Imagen 1" class="sponsor">
-                    <img src="img/footer/sponsor2.png" alt="Imagen 2" class="sponsor">
-                    <img src="img/footer/sponsor3.png" alt="Imagen 3" class="sponsor">
-                    <img src="img/footer/sponsor4.png" alt="Imagen 4" class="sponsor">
-                    <img src="img/footer/sponsor5.png" alt="Imagen 5" class="sponsor">
-                    <img src="img/footer/sponsor6.png" alt="Imagen 6" class="sponsor">
-                    <!-----------------------------------------> 
+					</div>
+				</div>
+			</div>  
+		</div>
+		<div class="telefonomail-footer">
+			<div class="telefono-footer">
+				<img src="img/footer/telefono-blanco-01.svg" alt="teléfono" width="243px" height="230px" class="telefono-blanco"/>
+				<p>(02942) 405960 / +54 (02948) 495064</p>
+			</div>
+			<div class="mail-footer">
+				<img src="img/footer/correo-blanco-01.svg" alt="mail" width="243px" height="160px" class="mail-blanco"/>
+				<p>ventas@caviahue.com</p>
 			</div>
 		</div>
-
-    </footer>
-        
-    
-    </body>
+		<div class="redes-footer">
+			<div>
+				<a href="tel:+5402948495064">
+					<img src="img/actividades/telefono.png" alt="teléfono" width="67px" height="66px" class="redes"/>
+				</a>
+			</div>
+			<div>
+				<a href="mailto:ventas@caviahue.com">
+					<img src="img/actividades/mail.png" alt="mail" width="66px" height="66px" class="redes">
+				</a>
+			</div>
+			<div>
+				<a href="https://www.google.com/maps/search/?api=1&query=Caviahue+Ski+Resort">
+					<img src="img/footer/logoubicacion-footer.svg" alt="ubicación" width="40px" height="40px" class="redes">
+				</a>
+			</div>
+			<div>
+				<a href="https://www.instagram.com/caviahueskiresort">
+					<img src="img/actividades/ig.png" alt="instagram" width="67px" height="66px" class="redes">
+				</a>
+			</div>
+		</div>
+		<div class="contenedor_carrusel_sponsors">
+			<div class="carrusel_sponsors">
+				<img src="img/footer/sponsor1.png" alt="Imagen 1" class="sponsor">
+				<img src="img/footer/sponsor2.png" alt="Imagen 2" class="sponsor">
+				<img src="img/footer/sponsor3.png" alt="Imagen 3" class="sponsor">
+				<img src="img/footer/sponsor4.png" alt="Imagen 4" class="sponsor">
+				<img src="img/footer/sponsor5.png" alt="Imagen 5" class="sponsor">
+				<img src="img/footer/sponsor6.png" alt="Imagen 6" class="sponsor">
+				<!----------------------------------------->
+				<img src="img/footer/sponsor1.png" alt="Imagen 1" class="sponsor">
+				<img src="img/footer/sponsor2.png" alt="Imagen 2" class="sponsor">
+				<img src="img/footer/sponsor3.png" alt="Imagen 3" class="sponsor">
+				<img src="img/footer/sponsor4.png" alt="Imagen 4" class="sponsor">
+				<img src="img/footer/sponsor5.png" alt="Imagen 5" class="sponsor">
+				<img src="img/footer/sponsor6.png" alt="Imagen 6" class="sponsor">
+				<!----------------------------------------->
+				<img src="img/footer/sponsor1.png" alt="Imagen 1" class="sponsor">
+				<img src="img/footer/sponsor2.png" alt="Imagen 2" class="sponsor">
+				<img src="img/footer/sponsor3.png" alt="Imagen 3" class="sponsor">
+				<img src="img/footer/sponsor4.png" alt="Imagen 4" class="sponsor">
+				<img src="img/footer/sponsor5.png" alt="Imagen 5" class="sponsor">
+				<img src="img/footer/sponsor6.png" alt="Imagen 6" class="sponsor">
+				<!----------------------------------------->
+				<img src="img/footer/sponsor1.png" alt="Imagen 1" class="sponsor">
+				<img src="img/footer/sponsor2.png" alt="Imagen 2" class="sponsor">
+				<img src="img/footer/sponsor3.png" alt="Imagen 3" class="sponsor">
+				<img src="img/footer/sponsor4.png" alt="Imagen 4" class="sponsor">
+				<img src="img/footer/sponsor5.png" alt="Imagen 5" class="sponsor">
+				<img src="img/footer/sponsor6.png" alt="Imagen 6" class="sponsor">
+				<!----------------------------------------->
+				<img src="img/footer/sponsor1.png" alt="Imagen 1" class="sponsor">
+				<img src="img/footer/sponsor2.png" alt="Imagen 2" class="sponsor">
+				<img src="img/footer/sponsor3.png" alt="Imagen 3" class="sponsor">
+				<img src="img/footer/sponsor4.png" alt="Imagen 4" class="sponsor">
+				<img src="img/footer/sponsor5.png" alt="Imagen 5" class="sponsor">
+				<img src="img/footer/sponsor6.png" alt="Imagen 6" class="sponsor">
+				<!----------------------------------------->
+				<img src="img/footer/sponsor1.png" alt="Imagen 1" class="sponsor">
+				<img src="img/footer/sponsor2.png" alt="Imagen 2" class="sponsor">
+				<img src="img/footer/sponsor3.png" alt="Imagen 3" class="sponsor">
+				<img src="img/footer/sponsor4.png" alt="Imagen 4" class="sponsor">
+				<img src="img/footer/sponsor5.png" alt="Imagen 5" class="sponsor">
+				<img src="img/footer/sponsor6.png" alt="Imagen 6" class="sponsor">
+				<!-----------------------------------------> 
+			</div>
+		</div>
+	</footer>
+</body>
 </html>
