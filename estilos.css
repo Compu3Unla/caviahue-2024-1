@@ -155,6 +155,17 @@ header{
 		width: 100%;
 		background-color: #111111;
     }
+
+    a {
+        color: #E3D8C2;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #00796b;
+        text-decoration: none;
+    }
+
     
     .carousel {
         display: grid;
@@ -413,7 +424,16 @@ header{
 }    
 
 .escuelas-de-ski{
-    
+    a {
+        color: #E3D8C2;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #002034;
+        text-decoration: none;
+    }
+
     h3{
         background: #042A2D;
         display: flex;
@@ -740,6 +760,16 @@ header{
 .alojamientos{
     padding-top: 140px;
     
+    a {
+        color: #E3D8C2;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #00796b;
+        text-decoration: none;
+    }
+
     h3{
         background: #02776D;
         display: flex;
@@ -876,6 +906,16 @@ header{
 .excursiones{
     padding-top: 140px;
 	padding-bottom: 140px;
+
+    a {
+        color: #E3D8C2;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #00796b;
+        text-decoration: none;
+    }
 
     h3{
         background: #042A2D;
@@ -2470,27 +2510,40 @@ header{
     justify-content: center;
     align-items: center;
     
-    
-
         button{
-            color: #FFF;
-                font-size: 2rem;
-                font-style: normal;
-                font-weight: 700;
-                background: #02776D;
-                border:#02776D;
-                padding-bottom: 7px;
-                padding-top: 7px;
-                padding-left: 12px;
-                padding-right: 12px;
-            }
-	
-	button a{
-		text-decoration: none;
-		color: #E3D8C2;
-	}
-            
-}
+            background: #02776D;
+            display: flex;
+            width: 11.3125rem;
+            height: 3.0625rem;
+            padding: 0.375rem 1.25rem;
+            justify-content: center;
+            align-items: center;
+            flex-shrink: 0;
+            text-align: center;
+            font-size: 1.75rem;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            margin-bottom: 60px;
+            transition: 0.3s,
+        }
+
+        a {
+            text-decoration: none;
+            color: #E3D8C2;
+        }
+
+        a:hover {
+            text-decoration: none;
+            color: #00796b;
+            border: none;
+        }
+
+        button:hover{
+        background:#E3D8C2;
+        color: #02776D;
+        }
+    }
 
 
 
