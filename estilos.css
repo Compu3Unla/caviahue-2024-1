@@ -162,8 +162,9 @@ header{
     }
 
     a:hover {
-        color: #00796b;
+        color: #E3D8C2;
         text-decoration: none;
+        transform: scale(1.1);
     }
 
     
@@ -204,6 +205,13 @@ header{
     #excursiones {
         background-image: url('img/index/excursiones.jpg');
     }
+
+    #ski-rental:hover {
+
+    }
+
+
+
     
     .presentacion{
         display: flex;
